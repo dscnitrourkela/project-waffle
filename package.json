@@ -1,25 +1,25 @@
 {
-  "name": "innovision-2023",
+  "name": "project-oregano",
   "private": true,
-  "description": "Official repository for Innovision 2023",
+  "description": "Official repository for HackNITR 6.0",
   "version": "1.3.0",
   "license": "MIT",
   "main": "src/pages/index.js",
   "keywords": [
-    "innovision",
+    "hacknitr",
     "website",
     "react",
-    "gatsby",
+    "nextjs",
     "tailwind",
     "dscnitrourkela",
     "nitrourkela"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/dscnitrourkela/project-raisin.git"
+    "url": "https://github.com/dscnitrourkela/project-oregano.git"
   },
   "bugs": {
-    "url": "https://github.com/dscnitrourkela/project-raisin.git"
+    "url": "https://github.com/dscnitrourkela/project-oregano.git"
   },
   "scripts": {
     "dev": "next dev",
