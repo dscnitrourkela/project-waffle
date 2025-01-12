@@ -1,4 +1,4 @@
-const data = [
+export const QUESTIONS_DATA = [
   {
     id: 1,
     question: 'What are the dates for HackNITR 6.0?',
@@ -60,5 +60,3 @@ const data = [
       'Although we will provide you with a lot of things, you should bring your laptop, chargers, extension cords, and any other hardware you might need. Furthermore it is mandatory to bring a physical copy of your undertaking form signed by your college authority and the hacker ID assigned to you within 24 hrs before the event along with a valid govt. ID. For further information please look at Things to carry for HackNITR 6.0 notion link. Students faling to submit the MoU within the stipulated time will be disqualified from the event.',
   },
 ];
-
-export default data;
