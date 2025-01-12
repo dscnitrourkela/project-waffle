@@ -6,6 +6,7 @@ import Gallery from '@/components/gallery/gallery';
 import Prizes from '@/components/prizes/prizes';
 import Stats from '@/components/stats/stats';
 import Timeline from '@/components/timeline/timeline';
+import Questions from '@/components/questions/Questions';
 
 const Playground = () => {
   return (
@@ -13,8 +14,9 @@ const Playground = () => {
       <AboutUs />
       <Stats />
       <Prizes />
-      <Gallery />
+      {/* <Gallery /> */}
       <Timeline />
+      <Questions />
     </div>
   );
 };
