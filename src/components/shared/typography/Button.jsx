@@ -11,29 +11,52 @@ const ButtonWrapper = styled.div`
 `;
 
 const BackLayer = styled.div`
-  ${tw`absolute -bottom-2 right-2 w-full h-full rounded-[0.6rem]`}
+  ${tw`absolute -bottom-2 right-2 rounded-[0.6rem]`}
   background: ${({ gradient }) => gradient};
+  width: 100%;
+  height: 100%;
+
+  @media (max-width: 768px) {
+    -bottom: 1.5px;
+    right: 1.5px;
+  }
 `;
 
 const FrontLayer = styled.button`
-  ${tw`relative px-6 py-3 rounded-[0.6rem] font-poppins font-semibold text-2xl flex items-center justify-center min-w-[200px] duration-200 overflow-hidden`}
+  ${tw`relative rounded-[0.6rem] font-poppins font-semibold flex items-center justify-center duration-200 overflow-hidden`}
   background: ${({ gradient }) => gradient};
   color: ${({ color }) => color};
   border: ${({ border }) => border || 'none'};
-  position: relative;
+  min-width: 200px;
+  min-height: 60px;
+  padding: 1rem 1.2rem;
+
   &:active {
     ${tw`transform -translate-x-2 translate-y-2`}
+  }
+
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    min-width: 160px;
+    min-height: 50px;
+    font-size: 1rem;
+    padding: 0.8rem 1.2rem;
   }
 `;
 
 const IconWrapper = styled.div`
   ${({ centered }) => (centered ? tw`mr-2` : tw`absolute`)};
   ${({ position, centered }) => !centered && position};
-  padding: 0.5rem;
+  padding: 0rem;
+
+  @media (max-width: 768px) {
+    width: 24px;
+    height: 24px;
+  }
 `;
 
 const ContentWrapper = styled.div`
-  ${tw`flex items-center justify-center`}
+  ${tw`flex items-center justify-center`}/* No specific mobile adjustments needed here unless required */
 `;
 
 const Button = ({ text, onClick, icon, gradients, color, border, iconPosition, centerIcon }) => {

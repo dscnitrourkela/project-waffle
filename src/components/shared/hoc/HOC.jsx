@@ -1,12 +1,13 @@
 'use client';
 
 import Navbar from '@/components/marginals/navbar/navbar';
+import BackgroundLayout from '../BackgroundLayout';
 
 function HOC({ children }) {
   return (
     <>
       <Navbar />
-      {children}
+      <BackgroundLayout>{children}</BackgroundLayout>
     </>
   );
 }
