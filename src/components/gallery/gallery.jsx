@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { easing } from 'maath';
 import * as THREE from 'three';
 
-import gallery from '@/config/content/gallery/index';
+import { GALLERYCONTENT } from '@/config/content/gallery/index';
 import { Image } from '@react-three/drei';
 import { Canvas, useFrame } from '@react-three/fiber';
 
@@ -89,8 +89,8 @@ function Rig(props) {
   return <group ref={ref} {...props} />;
 }
 
-function Carousel({ count = gallery.length }) {
-  return gallery.map((image, i) => (
+function Carousel({ count = GALLERYCONTENT.length }) {
+  return GALLERYCONTENT.map((image, i) => (
     <Card
       key={image.id}
       url={image.url}
