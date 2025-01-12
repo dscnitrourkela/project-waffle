@@ -1,5 +1,6 @@
 import styled, { keyframes } from 'styled-components';
 import tw from 'twin.macro';
+
 import { Body1 } from '../shared/typography/Body';
 
 export const FooterContainer = styled(Body1)`
@@ -10,11 +11,14 @@ export const FooterContainer = styled(Body1)`
   text-white
   p-4
   pb-8
-  w-full
   bg-[#1E0918]
+  overflow-hidden
+  h-full
+  w-full
+  z-50
 `}
   background-image: url('https://res.cloudinary.com/dqqyuvg1v/image/upload/v1736697114/grain_img_deenla.png');
-  background-size: cover;
+  background-size: 700px 700px;
 
   @media (max-width: 800px) {
     ${tw`
@@ -207,7 +211,7 @@ const ballColour = keyframes`
      #e84b7d 0.34%,
      #b02753 99.81%
     );
-    );
+    
   }
 `;
 
@@ -371,7 +375,7 @@ export const LastLine = styled.div`
     justify-center
     items-center
     mx-2
-    text-xs
+    text-sm
   `}
   @media (max-width: 800px) {
     ${tw`

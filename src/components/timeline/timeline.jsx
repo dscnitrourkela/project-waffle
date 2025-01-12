@@ -64,7 +64,7 @@ export default function Timeline() {
   }, []);
 
   return (
-    <Container>
+    <Container id='Timeline'>
       <div className='flex w-full justify-center '>
         <TimelineHeadingContainer>
           <TimeLineHeading>Timeline</TimeLineHeading>

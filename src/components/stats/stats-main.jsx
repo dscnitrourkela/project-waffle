@@ -5,7 +5,7 @@ import { CardContainer, SectionContainer, StatsHeading, StatsHeadingContainer } 
 
 export const StatsMain = () => {
   return (
-    <SectionContainer className='mt-20'>
+    <SectionContainer className='mt-20' id='Stats'>
       <StatsHeadingContainer>
         <StatsHeading>Stats HackNITR 5.0</StatsHeading>
       </StatsHeadingContainer>

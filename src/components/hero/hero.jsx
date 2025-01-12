@@ -1,20 +1,20 @@
 'use client';
 
+import { HNTYPO } from '@/config/content/hero/index';
+
 import { DiscordButton, PrimaryButton } from '../shared/typography/Button';
 import {
-  ParentContainer,
+  ButtonContainer,
   HeroImage,
-  TextStyle,
+  ParentContainer,
   SectionContainer,
   SectionContainer2,
-  ButtonContainer,
+  TextStyle,
 } from './styles';
-
-import { HNTYPO } from '@/config/content/hero/index';
 
 export default function Home() {
   return (
-    <ParentContainer>
+    <ParentContainer id='Home'>
       <SectionContainer>
         <SectionContainer2>
           <HeroImage src={HNTYPO} alt='HackNITR 6.0' width={800} height={200} priority />

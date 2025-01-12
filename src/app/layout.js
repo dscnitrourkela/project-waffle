@@ -18,6 +18,7 @@ export default function RootLayout({ children }) {
     <html lang='en'>
       <body
         className={`${GeistSans.variable} ${poppins.variable} ${proza.variable} ${inter.variable} ${prompt.variable} ${dmsans.variable} ${satoshi.variable} antialiased`}
+        suppressHydrationWarning
       >
         <StyledComponentsRegistry>
           <GlobalStyles />

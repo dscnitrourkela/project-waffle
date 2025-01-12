@@ -9,7 +9,7 @@ import {
 
 const AboutUs = () => {
   return (
-    <SectionContainer>
+    <SectionContainer id='About'>
       <AboutUSHeadingContainer>
         <AboutUsHeading>About Us</AboutUsHeading>
       </AboutUSHeadingContainer>

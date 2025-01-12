@@ -1,10 +1,10 @@
 /* eslint-disable max-len */
 import {
-  faTwitterSquare,
+  faFacebook,
+  faGithubSquare,
   faInstagram,
   faLinkedin,
-  faGithubSquare,
-  faFacebook,
+  faTwitterSquare,
 } from '@fortawesome/free-brands-svg-icons';
 
 export const footer = {
@@ -12,7 +12,7 @@ export const footer = {
     {
       title: 'About Us',
       id: 'about-us',
-      url: '/#About',
+      url: '#About',
       target: '',
       rel: '',
     },

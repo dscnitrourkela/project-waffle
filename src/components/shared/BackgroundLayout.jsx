@@ -1,8 +1,9 @@
 import React from 'react';
+
 import tw, { styled } from 'twin.macro';
 
 const BackgroundContainer = styled.div`
-  ${tw`relative w-full min-h-screen`}
+  ${tw`relative w-full min-h-screen -z-10`}
 `;
 
 const BackgroundWrapper = styled.div`

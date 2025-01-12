@@ -14,7 +14,7 @@ const Questions = () => {
 
   return (
     <>
-      <QuestionsHeadingContainer className='!mt-20'>
+      <QuestionsHeadingContainer className='!mt-20' id='FAQs'>
         <H1>Questions?</H1>
       </QuestionsHeadingContainer>
       <ParagrapgContainer>

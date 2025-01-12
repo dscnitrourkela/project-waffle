@@ -1,6 +1,8 @@
 'use client';
 
+import { Footer } from '@/components/Footer';
 import Navbar from '@/components/marginals/navbar/navbar';
+
 import BackgroundLayout from '../BackgroundLayout';
 
 function HOC({ children }) {
@@ -8,6 +10,7 @@ function HOC({ children }) {
     <>
       <Navbar />
       <BackgroundLayout>{children}</BackgroundLayout>
+      <Footer />
     </>
   );
 }
