@@ -15,7 +15,7 @@ const Playground = () => {
       <AboutUs />
       <Stats />
       <Prizes />
-      <Gallery />
+      {/* <Gallery /> */}
       <Timeline />
       <CommunityPartnerSection />
       <CampusAmbasador />

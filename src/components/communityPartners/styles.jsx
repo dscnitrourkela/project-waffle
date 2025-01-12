@@ -22,7 +22,7 @@ const End = styled.p`
 `;
 
 const IllustrationSection = styled.div`
-  ${tw`w-full pl-0 mt-6 md:w-1/2 md:mt-0 md:pl-8`}
+  ${tw`w-full pl-0 mt-6 md:w-1/2 md:mt-0 md:pl-8 sm:mb-3.5`}
 `;
 
 const TitleContainer = styled(GalleryHeadingContainer)`

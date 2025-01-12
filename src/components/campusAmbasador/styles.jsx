@@ -28,7 +28,7 @@ const End = styled.p`
 `;
 
 const IllustrationSection = styled.div`
-  ${tw`w-full pl-0 mt-6 
+  ${tw`w-full pl-0 mt-6 sm:mb-3.5
       sm:mt-8 
       md:w-[55%] md:mt-0 md:pl-2
       lg:w-1/2 lg:pl-6 
