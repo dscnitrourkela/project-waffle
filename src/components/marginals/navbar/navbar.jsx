@@ -23,9 +23,15 @@ const Navbar = () => {
   };
 
   return (
-    <NavbarContainer className={isOpen && '!pb-0'}>
+    <NavbarContainer className={isOpen && '!rounded-none !pb-0'}>
       <NavbarWrapper>
-        <HNLogo src={HN_LOGO} alt='HN Logo' width={70} height={70} />
+        <HNLogo
+          src={HN_LOGO}
+          alt='HN Logo'
+          className='md:w-20 w-14 md:h-20 h-14 p-1'
+          width={70}
+          height={70}
+        />
         <DesktopNavbar>
           <DesktopNavbarLinks>
             {NAVBAR_LINKS.map((link) => (

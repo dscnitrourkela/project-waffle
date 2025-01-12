@@ -7,6 +7,7 @@ import AboutUs from '@/components/about-us/about-us';
 import Prizes from '@/components/prizes/prizes';
 import { StatsMain } from '@/components/stats/stats-main';
 import Timeline from '@/components/timeline/timeline';
+import Questions from '@/components/questions/Questions';
 import CommunityPartnerSection from '@/components/communityPartners/CommunityPartners';
 import CampusAmbasador from '@/components/campusAmbasador/CampusAmbasador';
 
@@ -18,8 +19,9 @@ const Playground = () => {
       <AboutUs />
       <StatsMain />
       <Prizes />
-      {/* <Gallery /> */}
+      <Gallery /> 
       <Timeline />
+      <Questions />
       <CommunityPartnerSection />
       <CampusAmbasador />
     </div>

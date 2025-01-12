@@ -1,26 +1,29 @@
 import React from 'react';
-import { H1 } from '../shared/typography/Headings';
+
+import Image from 'next/image';
+
+import {
+  BULLET_POINTS,
+  COMMUNITY_PARTNER,
+  COMMUNITY_PARTNER_LINK,
+  DETAILS,
+} from '@/config/content/CommunityPartners/index.js';
+import { handleRedirect } from '@/utils/handleRedirect';
+
+import { GalleryHeading } from '../gallery/styles';
+import { PrimaryButton } from '../shared/typography/Button';
+import SvgIcon from './Daimond';
 import {
   Container,
   ContentSection,
   Description,
+  End,
   IllustrationSection,
-  TitleContainer,
+  InnerCover,
   ItemContainer,
   Text,
-  InnerCover,
-  OuterCover,
-  End,
+  TitleContainer,
 } from './styles';
-import { PrimaryButton } from '../shared/typography/Button';
-import SvgIcon from './Daimond';
-import {
-  BULLET_POINTS,
-  COMMUNITY_PARTNER,
-  DETAILS,
-} from '@/config/content/CommunityPartners/index.js';
-import { GalleryHeading } from '../gallery/styles';
-import Image from 'next/image';
 
 const CommunityPartnerSection = () => {
   return (
@@ -41,14 +44,16 @@ const CommunityPartnerSection = () => {
                 </ItemContainer>
               ))}
             </ul>
+            <InnerCover>
+              <End>{DETAILS.end}</End>
+              <PrimaryButton
+                text={DETAILS.button}
+                onClick={() => handleRedirect(COMMUNITY_PARTNER_LINK)}
+              />
+            </InnerCover>
           </ContentSection>
 
           <IllustrationSection>
-            {/* <img
-              src={COMMUNITY_PARTNER}
-              alt='Community partners collaborating'
-              className='w-full h-auto'
-            /> */}
             <Image
               src={COMMUNITY_PARTNER}
               alt='Community partner'
@@ -59,13 +64,6 @@ const CommunityPartnerSection = () => {
           </IllustrationSection>
         </Container>
       </>
-
-      <OuterCover>
-        <InnerCover>
-          <End>{DETAILS.end}</End>
-          <PrimaryButton text={DETAILS.button} />
-        </InnerCover>
-      </OuterCover>
     </>
   );
 };

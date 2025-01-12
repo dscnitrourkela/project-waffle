@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import tw from 'twin.macro';
+
 import { GalleryHeadingContainer } from '../gallery/styles';
 
 const Container = styled.div`
@@ -11,13 +12,13 @@ const ContentSection = styled.div`
 `;
 
 const Description = styled.p`
-  ${tw`mb-4 text-xl text-white font-semibold leading-[1.73]
+  ${tw`mb-4 text-xl text-white font-semibold leading-[1.73] font-geist
       sm:mb-5 sm:text-2xl 
       lg:text-[32px]`}
 `;
 
 const End = styled.p`
-  ${tw`mb-4 text-[20px] text-[#FC952A] font-bold leading-[1.73]
+  ${tw`mb-4 text-[18px] text-center ssm:text-start md:text-[20px] text-[#FC952A] font-bold leading-[1.73] font-geist
       sm:mb-5`}
 `;
 
@@ -41,28 +42,22 @@ const Text = styled.p`
 `;
 
 const OuterCover = styled.div`
-  ${tw`flex w-full px-4 mt-8 justify-center
-      sm:px-6 
-      md:px-8 md:justify-start md:w-[95%]
-      lg:w-[90%] 
-      2xl:w-[80%]
-      xl:w-[75%]
-      `}
+  ${tw`w-full max-w-6xl px-4 mx-auto sm:px-6 md:px-8 md:flex-row lg:px-12`}
 `;
 
 const InnerCover = styled.div`
-  ${tw`ml-7 sm:ml-5 md:ml-[-1.25rem] lg:ml-1 xl:ml-4 2xl:ml-11`}
+  ${tw`ssm:ml-10 flex flex-col items-center ssm:items-start justify-start`}
 `;
 
 export {
   Container,
   ContentSection,
   Description,
-  IllustrationSection,
-  TitleContainer,
-  ItemContainer,
-  Text,
-  OuterCover,
-  InnerCover,
   End,
+  IllustrationSection,
+  InnerCover,
+  ItemContainer,
+  OuterCover,
+  Text,
+  TitleContainer,
 };
