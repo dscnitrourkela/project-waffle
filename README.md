@@ -14,7 +14,7 @@
 
 <br />
 <p align="center">
-  <a href="https://github.com/dscnitrourkela/project-oregano">
+  <a href="https://github.com/dscnitrourkela/project-waffle">
     <img src="images/logo.png" alt="Logo" width="130">
   </a>
 
@@ -26,9 +26,9 @@
     <br />
     <a href="https://hacknitr.com">View Live</a>
     ·
-    <a href="https://github.com/dscnitrourkela/project-oregano/issues">Report Bugs</a>
+    <a href="https://github.com/dscnitrourkela/project-waffle/issues">Report Bugs</a>
     .
-    <a href="https://github.com/dscnitrourkela/project-oregano/issues">Add Features</a>
+    <a href="https://github.com/dscnitrourkela/project-waffle/issues">Add Features</a>
   </p>
 </p>
 
@@ -195,19 +195,19 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="http://dscnitrourkela.org"><img src="https://avatars3.githubusercontent.com/u/51153443?v=4?s=100" width="100px;" alt=""/><br /><sub><b>DSC NIT Rourkela</b></sub></a><br /><a href="#projectManagement-dscnitrourkela" title="Project Management">📆</a></td>
-    <td align="center"><a href="https://abhibhaw.co"><img src="https://avatars.githubusercontent.com/u/39991296?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Abhibhaw Asthana</b></sub></a><br /><a href="https://github.com/dscnitrourkela/project-oregano/pulls?q=is%3Apr+reviewed-by%3Aabhibhaw" title="Reviewed Pull Requests">👀</a> <a href="#maintenance-abhibhaw" title="Maintenance">🚧</a> <a href="https://github.com/dscnitrourkela/project-oregano/commits?author=abhibhaw" title="Code">💻</a> <a href="#infra-abhibhaw" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#projectManagement-abhibhaw" title="Project Management">📆</a></td>
-    <td align="center"><a href="https://github.com/CIPHERTron"><img src="https://avatars.githubusercontent.com/u/56754747?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Pritish Samal</b></sub></a><br /><a href="https://github.com/dscnitrourkela/project-oregano/commits?author=CIPHERTron" title="Code">💻</a> <a href="#maintenance-CIPHERTron" title="Maintenance">🚧</a> <a href="#mentoring-CIPHERTron" title="Mentoring">🧑‍🏫</a> <a href="https://github.com/dscnitrourkela/project-oregano/pulls?q=is%3Apr+reviewed-by%3ACIPHERTron" title="Reviewed Pull Requests">👀</a> <a href="#projectManagement-CIPHERTron" title="Project Management">📆</a></td>
-    <td align="center"><a href="http://riteshpatil.dev"><img src="https://avatars.githubusercontent.com/u/56112399?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ritesh Patil</b></sub></a><br /><a href="https://github.com/dscnitrourkela/project-oregano/commits?author=riteshsp2000" title="Code">💻</a> <a href="https://github.com/dscnitrourkela/project-oregano/commits?author=riteshsp2000" title="Documentation">📖</a> <a href="#ideas-riteshsp2000" title="Ideas, Planning, & Feedback">🤔</a> <a href="#projectManagement-riteshsp2000" title="Project Management">📆</a> <a href="#maintenance-riteshsp2000" title="Maintenance">🚧</a></td>
-    <td align="center"><a href="https://github.com/DesignrKnight"><img src="https://avatars.githubusercontent.com/u/27865704?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Abel Mathew</b></sub></a><br /><a href="https://github.com/dscnitrourkela/project-oregano/commits?author=DesignrKnight" title="Code">💻</a> <a href="#security-DesignrKnight" title="Security">🛡️</a> <a href="#infra-DesignrKnight" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
-    <td align="center"><a href="https://github.com/padmajabhol"><img src="https://avatars.githubusercontent.com/u/75530516?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Padmaja Bhol</b></sub></a><br /><a href="https://github.com/dscnitrourkela/project-oregano/commits?author=padmajabhol" title="Code">💻</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/ratnakar-sahoo-a78401135"><img src="https://avatars.githubusercontent.com/u/80893583?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ratnakar Sahoo</b></sub></a><br /><a href="https://github.com/dscnitrourkela/project-oregano/commits?author=ratnakar5938" title="Code">💻</a></td>
+    <td align="center"><a href="https://abhibhaw.co"><img src="https://avatars.githubusercontent.com/u/39991296?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Abhibhaw Asthana</b></sub></a><br /><a href="https://github.com/dscnitrourkela/project-waffle/pulls?q=is%3Apr+reviewed-by%3Aabhibhaw" title="Reviewed Pull Requests">👀</a> <a href="#maintenance-abhibhaw" title="Maintenance">🚧</a> <a href="https://github.com/dscnitrourkela/project-waffle/commits?author=abhibhaw" title="Code">💻</a> <a href="#infra-abhibhaw" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#projectManagement-abhibhaw" title="Project Management">📆</a></td>
+    <td align="center"><a href="https://github.com/CIPHERTron"><img src="https://avatars.githubusercontent.com/u/56754747?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Pritish Samal</b></sub></a><br /><a href="https://github.com/dscnitrourkela/project-waffle/commits?author=CIPHERTron" title="Code">💻</a> <a href="#maintenance-CIPHERTron" title="Maintenance">🚧</a> <a href="#mentoring-CIPHERTron" title="Mentoring">🧑‍🏫</a> <a href="https://github.com/dscnitrourkela/project-waffle/pulls?q=is%3Apr+reviewed-by%3ACIPHERTron" title="Reviewed Pull Requests">👀</a> <a href="#projectManagement-CIPHERTron" title="Project Management">📆</a></td>
+    <td align="center"><a href="http://riteshpatil.dev"><img src="https://avatars.githubusercontent.com/u/56112399?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ritesh Patil</b></sub></a><br /><a href="https://github.com/dscnitrourkela/project-waffle/commits?author=riteshsp2000" title="Code">💻</a> <a href="https://github.com/dscnitrourkela/project-waffle/commits?author=riteshsp2000" title="Documentation">📖</a> <a href="#ideas-riteshsp2000" title="Ideas, Planning, & Feedback">🤔</a> <a href="#projectManagement-riteshsp2000" title="Project Management">📆</a> <a href="#maintenance-riteshsp2000" title="Maintenance">🚧</a></td>
+    <td align="center"><a href="https://github.com/DesignrKnight"><img src="https://avatars.githubusercontent.com/u/27865704?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Abel Mathew</b></sub></a><br /><a href="https://github.com/dscnitrourkela/project-waffle/commits?author=DesignrKnight" title="Code">💻</a> <a href="#security-DesignrKnight" title="Security">🛡️</a> <a href="#infra-DesignrKnight" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+    <td align="center"><a href="https://github.com/padmajabhol"><img src="https://avatars.githubusercontent.com/u/75530516?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Padmaja Bhol</b></sub></a><br /><a href="https://github.com/dscnitrourkela/project-waffle/commits?author=padmajabhol" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/ratnakar-sahoo-a78401135"><img src="https://avatars.githubusercontent.com/u/80893583?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ratnakar Sahoo</b></sub></a><br /><a href="https://github.com/dscnitrourkela/project-waffle/commits?author=ratnakar5938" title="Code">💻</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://irsayvid.azurewebsites.net/"><img src="https://avatars.githubusercontent.com/u/56034618?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Divya Sri Darimisetti</b></sub></a><br /><a href="https://github.com/dscnitrourkela/project-oregano/commits?author=irsayvid" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/sambit-sankalp"><img src="https://avatars.githubusercontent.com/u/82284130?v=4?s=100" width="100px;" alt=""/><br /><sub><b>sambit-sankalp</b></sub></a><br /><a href="https://github.com/dscnitrourkela/project-oregano/commits?author=sambit-sankalp" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/Sonakshi1901"><img src="https://avatars.githubusercontent.com/u/76627480?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sonakshi Satpathy</b></sub></a><br /><a href="https://github.com/dscnitrourkela/project-oregano/commits?author=Sonakshi1901" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/nayakastha"><img src="https://avatars.githubusercontent.com/u/58568514?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Astha Nayak</b></sub></a><br /><a href="#maintenance-nayakastha" title="Maintenance">🚧</a> <a href="https://github.com/dscnitrourkela/project-oregano/commits?author=nayakastha" title="Code">💻</a> <a href="https://github.com/dscnitrourkela/project-oregano/commits?author=nayakastha" title="Documentation">📖</a> <a href="#mentoring-nayakastha" title="Mentoring">🧑‍🏫</a> <a href="#eventOrganizing-nayakastha" title="Event Organizing">📋</a> <a href="https://github.com/dscnitrourkela/project-oregano/pulls?q=is%3Apr+reviewed-by%3Anayakastha" title="Reviewed Pull Requests">👀</a> <a href="#projectManagement-nayakastha" title="Project Management">📆</a></td>
-    <td align="center"><a href="https://github.com/ORKO06"><img src="https://avatars.githubusercontent.com/u/74568847?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hemant Bajaj</b></sub></a><br /><a href="https://github.com/dscnitrourkela/project-oregano/commits?author=ORKO06" title="Code">💻</a></td>
+    <td align="center"><a href="https://irsayvid.azurewebsites.net/"><img src="https://avatars.githubusercontent.com/u/56034618?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Divya Sri Darimisetti</b></sub></a><br /><a href="https://github.com/dscnitrourkela/project-waffle/commits?author=irsayvid" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/sambit-sankalp"><img src="https://avatars.githubusercontent.com/u/82284130?v=4?s=100" width="100px;" alt=""/><br /><sub><b>sambit-sankalp</b></sub></a><br /><a href="https://github.com/dscnitrourkela/project-waffle/commits?author=sambit-sankalp" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Sonakshi1901"><img src="https://avatars.githubusercontent.com/u/76627480?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sonakshi Satpathy</b></sub></a><br /><a href="https://github.com/dscnitrourkela/project-waffle/commits?author=Sonakshi1901" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/nayakastha"><img src="https://avatars.githubusercontent.com/u/58568514?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Astha Nayak</b></sub></a><br /><a href="#maintenance-nayakastha" title="Maintenance">🚧</a> <a href="https://github.com/dscnitrourkela/project-waffle/commits?author=nayakastha" title="Code">💻</a> <a href="https://github.com/dscnitrourkela/project-waffle/commits?author=nayakastha" title="Documentation">📖</a> <a href="#mentoring-nayakastha" title="Mentoring">🧑‍🏫</a> <a href="#eventOrganizing-nayakastha" title="Event Organizing">📋</a> <a href="https://github.com/dscnitrourkela/project-waffle/pulls?q=is%3Apr+reviewed-by%3Anayakastha" title="Reviewed Pull Requests">👀</a> <a href="#projectManagement-nayakastha" title="Project Management">📆</a></td>
+    <td align="center"><a href="https://github.com/ORKO06"><img src="https://avatars.githubusercontent.com/u/74568847?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hemant Bajaj</b></sub></a><br /><a href="https://github.com/dscnitrourkela/project-waffle/commits?author=ORKO06" title="Code">💻</a></td>
   </tr>
 </table>
 
@@ -221,15 +221,15 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/dscnitrourkela/project-oregano?style=for-the-badge
-[contributors-url]: https://github.com/dscnitrourkela/project-oregano/graphs/contributors
+[contributors-shield]: https://img.shields.io/github/contributors/dscnitrourkela/project-waffle?style=for-the-badge
+[contributors-url]: https://github.com/dscnitrourkela/project-waffle/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/dscnitrourkela/project-oregano?style=for-the-badge
-[forks-url]: https://github.com/dscnitrourkela/project-oregano/network/members
+[forks-url]: https://github.com/dscnitrourkela/project-waffle/network/members
 [stars-shield]: https://img.shields.io/github/stars/dscnitrourkela/project-oregano?style=for-the-badge
-[stars-url]: https://github.com/dscnitrourkela/project-oregano/stargazers
+[stars-url]: https://github.com/dscnitrourkela/project-waffle/stargazers
 [issues-shield]: https://img.shields.io/github/issues/dscnitrourkela/project-oregano?style=for-the-badge
-[issues-url]: https://github.com/dscnitrourkela/project-oregano/issues
+[issues-url]: https://github.com/dscnitrourkela/project-waffle/issues
 [license-shield]: https://img.shields.io/github/license/dscnitrourkela/project-oregano?style=for-the-badge
-[license-url]: https://github.com/dscnitrourkela/project-oregano/blob/main/LICENSE
+[license-url]: https://github.com/dscnitrourkela/project-waffle/blob/main/LICENSE
 [product-screenshot]: images/Compose.png
 [dsc-nitrourkela]: images/repoCover.png
