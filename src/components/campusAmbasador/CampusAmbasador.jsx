@@ -1,31 +1,31 @@
 import React from 'react';
-import { H1 } from '../shared/typography/Headings';
 
-import {
-  Container,
-  ContentSection,
-  Description,
-  IllustrationSection,
-  TitleContainer,
-  ItemContainer,
-  Text,
-  InnerCover,
-  OuterCover,
-  End,
-  Title,
-  TextContainer,
-  PointContainer,
-  SvgIconContainer,
-} from './styles';
-import { PrimaryButton } from '../shared/typography/Button';
-import SvgIcon from '../communityPartners/Daimond';
+import Image from 'next/image';
+
 import {
   BULLET_POINTS,
   CAMPUS_AMBASADOR,
   DETAILS,
 } from '@/config/content/CampusAmbasador/index.js';
+
+import SvgIcon from '../communityPartners/Daimond';
 import { GalleryHeading } from '../gallery/styles';
-import Image from 'next/image';
+import { PrimaryButton } from '../shared/typography/Button';
+import {
+  Container,
+  ContentSection,
+  Description,
+  End,
+  IllustrationSection,
+  InnerCover,
+  ItemContainer,
+  PointContainer,
+  SvgIconContainer,
+  Text,
+  TextContainer,
+  Title,
+  TitleContainer,
+} from './styles';
 
 const CampusAmbasador = () => {
   return (
@@ -63,16 +63,13 @@ const CampusAmbasador = () => {
                 </ItemContainer>
               ))}
             </ul>
+            <InnerCover>
+              <End>{DETAILS.end}</End>
+              <PrimaryButton text={DETAILS.button} />
+            </InnerCover>
           </ContentSection>
         </Container>
       </>
-
-      <OuterCover>
-        <InnerCover>
-          <End>{DETAILS.end}</End>
-          <PrimaryButton text={DETAILS.button} />
-        </InnerCover>
-      </OuterCover>
     </>
   );
 };

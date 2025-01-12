@@ -26,3 +26,5 @@ export const DETAILS = {
   end: 'Join us as community partner and make an impact!',
   button: 'Apply Now',
 };
+
+export const COMMUNITY_PARTNER_LINK = 'https://tally.so/r/n017B9';

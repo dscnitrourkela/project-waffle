@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 import tw from 'twin.macro';
+
 import { GalleryHeadingContainer } from '../gallery/styles';
 
 const Container = styled.div`
-  ${tw`relative flex flex-col items-center justify-between w-full px-4 mx-auto sm:max-w-md sm:px-6 md:max-w-full md:px-8 md:flex-row lg:max-w-6xl lg:px-12 xl:max-w-7xl`}
+  ${tw`relative flex flex-col items-center justify-between w-full max-w-6xl px-4 mx-auto sm:px-6 md:px-8 md:flex-row lg:px-12`}
 `;
 
 const ContentSection = styled.div`
@@ -23,7 +24,7 @@ const Description = styled.p`
 `;
 
 const End = styled.p`
-  ${tw`mb-4 text-[20px] text-[#FC952A] font-bold leading-[1.73]
+  ${tw`mb-4 text-[18px] text-center ssm:text-start md:text-[20px] text-[#FC952A] font-bold leading-[1.73] font-geist
       sm:mb-5`}
 `;
 
@@ -59,10 +60,12 @@ const TextContainer = styled.div`
 `;
 
 const Title = styled.p`
-  ${tw`text-[#FC952A] font-satoshi truncate text-sm
+  ${tw`
+  text-[#FC952A] font-satoshi truncate text-sm
       sm:text-base
       md:text-sm
-      lg:text-base`}
+      lg:text-base
+      `}
 `;
 
 const Text = styled.p`
@@ -81,22 +84,22 @@ const OuterCover = styled.div`
 `;
 
 const InnerCover = styled.div`
-  ${tw`ml-7 sm:ml-5 md:ml-4 lg:ml-1 xl:ml-4 2xl:ml-11`}
+  ${tw`ssm:ml-10 flex flex-col items-center ssm:items-start justify-start`}
 `;
 
 export {
   Container,
   ContentSection,
   Description,
-  IllustrationSection,
-  TitleContainer,
-  ItemContainer,
-  Text,
-  OuterCover,
-  InnerCover,
   End,
-  Title,
-  TextContainer,
+  IllustrationSection,
+  InnerCover,
+  ItemContainer,
+  OuterCover,
   PointContainer,
   SvgIconContainer,
+  Text,
+  TextContainer,
+  Title,
+  TitleContainer,
 };
