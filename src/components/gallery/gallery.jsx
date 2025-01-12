@@ -35,7 +35,7 @@ const Gallery = () => {
   }, []);
   return (
     <SectionContainer>
-      <div className='flex justify-center'>
+      <div className='flex justify-center !mt-32'>
         <GalleryHeadingContainer>
           <GalleryHeading>Gallery</GalleryHeading>
         </GalleryHeadingContainer>

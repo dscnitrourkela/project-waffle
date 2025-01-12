@@ -1,15 +1,15 @@
+import Image from 'next/image';
 import styled from 'styled-components';
 import tw from 'twin.macro';
-import Image from 'next/image';
 
 export const ParentContainer = styled.main`
-  ${tw`min-h-[70vh] bg-[#200818] overflow-x-hidden pt-16 sm:pt-20`}
+  ${tw`min-h-[90vh] bg-[#200818] grid place-items-center`}
 `;
 export const HeroImage = styled(Image)`
   ${tw`w-full h-auto pb-10`}
 `;
 export const TextStyle = styled.div`
-  ${tw`text-white text-base sm:text-lg md:text-xl lg:text-2xl mb-8 sm:mb-12`}
+  ${tw`text-white text-base sm:text-lg md:text-xl lg:text-2xl mb-8 sm:mb-12 font-geist`}
 `;
 
 export const ButtonContainer = styled.div`
@@ -17,7 +17,7 @@ export const ButtonContainer = styled.div`
 `;
 
 export const SectionContainer = styled.div`
-  ${tw`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-16 sm:pb-32 text-center`}
+  ${tw`max-w-7xl mx-auto  text-center`}
 `;
 
 export const SectionContainer2 = styled.div`

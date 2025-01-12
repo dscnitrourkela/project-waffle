@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
+
 import { H1, Paragraph } from '../shared/typography/Headings';
-import { QuestionsHeadingContainer, ParagrapgContainer } from './styles';
-import MobileQuestions from './MobileQuestions';
 import DesktopQuestions from './DesktopQuestions';
+import MobileQuestions from './MobileQuestions';
+import { ParagrapgContainer, QuestionsHeadingContainer } from './styles';
 
 const Questions = () => {
   const [activeQuestion, setActiveQuestion] = useState(null);
@@ -13,7 +14,7 @@ const Questions = () => {
 
   return (
     <>
-      <QuestionsHeadingContainer>
+      <QuestionsHeadingContainer className='!mt-20'>
         <H1>Questions?</H1>
       </QuestionsHeadingContainer>
       <ParagrapgContainer>

@@ -2,6 +2,7 @@ import Image from 'next/image';
 import styled from 'styled-components';
 import tw from 'twin.macro';
 
+import { QuestionsHeadingContainer } from '../questions/styles';
 import { H1 } from '../shared/typography/Headings';
 
 export const PrizeCardContainer = styled.div`
@@ -41,28 +42,11 @@ export const PrizeAmount = styled(H1)`
 `;
 
 export const PrizesContainer = styled.div`
-  ${tw`max-w-6xl mx-auto py-20 flex flex-col items-center justify-center`}
-`;
-export const PrizesHeadingContainer = styled.div`
-  display: inline-flex;
-  /* padding: 1rem 3rem; */
-  justify-content: center;
-  align-items: center;
-  gap: 0.625rem;
-  border-radius: 1.125rem;
-  background: #f6dfc2;
-  ${tw`md:px-[3rem] md:py-[1rem] ssm:px-[2rem] ssm:py-[1rem] px-[2rem] py-[0.5rem]`};
+  ${tw`max-w-6xl mx-auto flex flex-col items-center justify-center`}
 `;
 
-export const PrizesHeading = styled(H1)`
-  ${tw`
-    text-center
-    w-full
-    md:text-3xl
-    ssm:text-3xl
-    text-2xl
-  `}
-`;
+export const PrizesHeadingContainer = styled(QuestionsHeadingContainer)``;
+export const PrizesHeading = styled(H1)``;
 
 export const PrizesContent = styled.div`
   ${tw` md:my-10
