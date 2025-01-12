@@ -1,6 +1,6 @@
-import { SectionContainer, StatsHeading, StatsHeadingContainer } from './StatsMain.style';
+import { SectionContainer, StatsHeading, StatsHeadingContainer } from './styles';
 
-export const StatsMain = () => {
+const Stats = () => {
   return (
     <SectionContainer>
       <StatsHeadingContainer>
@@ -9,3 +9,5 @@ export const StatsMain = () => {
     </SectionContainer>
   );
 };
+
+export default Stats;
