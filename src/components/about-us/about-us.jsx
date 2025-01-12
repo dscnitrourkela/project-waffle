@@ -13,7 +13,7 @@ const AboutUs = () => {
       <AboutUSHeadingContainer>
         <AboutUsHeading>About Us</AboutUsHeading>
       </AboutUSHeadingContainer>
-      <DescriptionContainer>{DESCRIPTION}</DescriptionContainer>;
+      <DescriptionContainer>{DESCRIPTION}</DescriptionContainer>
     </SectionContainer>
   );
 };
