@@ -9,11 +9,11 @@ import {
 
 const AboutUs = () => {
   return (
-    <SectionContainer>
+    <SectionContainer id='About'>
       <AboutUSHeadingContainer>
         <AboutUsHeading>About Us</AboutUsHeading>
       </AboutUSHeadingContainer>
-      <DescriptionContainer>{DESCRIPTION}</DescriptionContainer>;
+      <DescriptionContainer className='-mt-5'>{DESCRIPTION}</DescriptionContainer>
     </SectionContainer>
   );
 };

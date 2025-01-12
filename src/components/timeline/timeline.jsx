@@ -64,13 +64,13 @@ export default function Timeline() {
   }, []);
 
   return (
-    <Container>
-      <div className='flex w-full justify-center mb-20'>
+    <Container id='Timeline'>
+      <div className='flex w-full justify-center '>
         <TimelineHeadingContainer>
           <TimeLineHeading>Timeline</TimeLineHeading>
         </TimelineHeadingContainer>
       </div>
-      <div className='flex m-auto px-0 md:px-10' ref={targetRef}>
+      <div className='flex m-auto px-0 md:px-10 !my-10' ref={targetRef}>
         <ProgressBar>
           <Progress height={scrollHeight}>
             <Ellipse />

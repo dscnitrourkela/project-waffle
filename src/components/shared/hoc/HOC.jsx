@@ -1,14 +1,17 @@
 'use client';
 
+import { Footer } from '@/components/Footer';
 import Navbar from '@/components/marginals/navbar/navbar';
-import { ReactLenis } from '@/lib/lenis';
+
+import BackgroundLayout from '../BackgroundLayout';
 
 function HOC({ children }) {
   return (
-    <ReactLenis root>
+    <>
       <Navbar />
-      {children}
-    </ReactLenis>
+      <BackgroundLayout>{children}</BackgroundLayout>
+      <Footer />
+    </>
   );
 }
 

@@ -13,10 +13,10 @@ export const HN_LOGO =
   'https://res.cloudinary.com/dmvdbpyqk/image/upload/v1736602484/navbar_xqgwld.svg';
 
 export const NAVBAR_LINKS = [
-  { href: '#', text: 'Home' },
-  { href: '#', text: 'About' },
-  { href: '#', text: 'Stats' },
-  { href: '#', text: 'Timeline' },
-  { href: '#', text: 'Sponsors' },
-  { href: '#', text: 'FAQs' },
+  { href: '#Home', text: 'Home' },
+  { href: '#About', text: 'About' },
+  { href: '#Stats', text: 'Stats' },
+  { href: '#Timeline', text: 'Timeline' },
+  { href: '#Sponsors', text: 'Sponsors' },
+  { href: '#FAQs', text: 'FAQs' },
 ];
