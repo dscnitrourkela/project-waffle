@@ -45,7 +45,9 @@ const OuterCover = styled.div`
       sm:px-6 
       md:px-8 md:justify-start md:w-[95%]
       lg:w-[90%] 
-      2xl:w-[80%]`}
+      2xl:w-[80%]
+      xl:w-[75%]
+      `}
 `;
 
 const InnerCover = styled.div`

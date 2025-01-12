@@ -74,6 +74,7 @@ const OuterCover = styled.div`
       sm:px-6 
       md:px-8 lg:justify-end md:w-[95%]
       lg:w-[100%] 
+      xl:w-[85%]
       2xl:w-[80%]
       lg:mr-8
       `}
