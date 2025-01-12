@@ -94,7 +94,7 @@ const PrimaryButton = ({ text = 'Click Me!', onClick }) => {
         frontLayerGradient: 'linear-gradient(91deg, #e84b7d 0.34%, #b02753 99.81%)',
       }}
       color='linear-gradient(99deg, #f4e7d6 1.92%, #f6dcba 98.13%)'
-      iconPosition='bottom: -10px; left: -7.5px;'
+      iconPosition='bottom: -4px; left: -1px;'
       centerIcon={false}
     />
   );
