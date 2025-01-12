@@ -6,14 +6,9 @@ import withTwin from './withTwin.mjs';
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'res.cloudinary.com',
-        pathname: '/**', // Match all paths from Cloudinary
-      },
-    ],
+        domains: ['res.cloudinary.com'],
   },
 };
 
 export default withTwin(nextConfig);
+
