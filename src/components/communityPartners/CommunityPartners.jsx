@@ -20,6 +20,7 @@ import {
   DETAILS,
 } from '@/config/content/CommunityPartners/index.js';
 import { GalleryHeading } from '../gallery/styles';
+import Image from 'next/image';
 
 const CommunityPartnerSection = () => {
   return (
@@ -43,9 +44,16 @@ const CommunityPartnerSection = () => {
           </ContentSection>
 
           <IllustrationSection>
-            <img
+            {/* <img
               src={COMMUNITY_PARTNER}
               alt='Community partners collaborating'
+              className='w-full h-auto'
+            /> */}
+            <Image
+              src={COMMUNITY_PARTNER}
+              alt='Community partner'
+              width={500}
+              height={500}
               className='w-full h-auto'
             />
           </IllustrationSection>

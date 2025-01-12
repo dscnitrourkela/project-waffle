@@ -25,6 +25,7 @@ import {
   DETAILS,
 } from '@/config/content/CampusAmbasador/index.js';
 import { GalleryHeading } from '../gallery/styles';
+import Image from 'next/image';
 
 const CampusAmbasador = () => {
   return (
@@ -36,7 +37,14 @@ const CampusAmbasador = () => {
 
         <Container>
           <IllustrationSection>
-            <img src={CAMPUS_AMBASADOR} alt='Community ambassador' className='w-full h-auto' />
+            {/* <img src={CAMPUS_AMBASADOR} alt='Community ambassador' className='w-full h-auto' /> */}
+            <Image
+              src={CAMPUS_AMBASADOR}
+              alt='Campus ambassador'
+              width={500}
+              height={500}
+              className='w-full h-auto'
+            />
           </IllustrationSection>
           <ContentSection>
             <Description>{DETAILS.des}</Description>
