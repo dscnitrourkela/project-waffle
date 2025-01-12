@@ -54,15 +54,15 @@ export const Box = styled.div`
   }
 `;
 export const BoxHeading = styled(H1)`
-  ${tw`text-2xl md:text-3xl font-prompt`}
+  ${tw`text-2xl md:text-3xl font-poppins`}
 `;
 export const Duration = styled(H3)`
   color: var(--Neutral-2, #454545);
-  ${tw`text-lg font-prompt`}
+  ${tw`text-lg font-geist`}
 `;
 export const Description = styled(Paragraph)`
   color: var(--Neutral-4, #454545);
-  ${tw`text-lg font-prompt`}
+  ${tw`text-lg font-geist`}
 `;
 export const Container = styled.section`
   ${tw`

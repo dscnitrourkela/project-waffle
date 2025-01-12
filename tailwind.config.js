@@ -18,6 +18,7 @@ module.exports = {
         dmsans: 'var(--DM_Sans)',
         satoshi: 'var(--Satoshi)',
         poppins: 'var(--Poppins)',
+        geist: 'var(--font-geist-sans)',
       },
       screens: {
         smd: '640px',
