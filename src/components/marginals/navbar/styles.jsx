@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import tw from 'twin.macro';
 
 export const NavbarContainer = styled.div`
-  ${tw`sticky fixed z-50 w-full top-0 z-10 max-w-7xl left-0 right-0 mx-auto bg-[#F4E7D6] md:bg-transparent rounded-b-lg md:rounded-b-xl`}
+  ${tw`sticky z-50 w-full top-0 max-w-7xl left-0 right-0 mx-auto bg-[#F4E7D6] md:bg-transparent rounded-b-lg md:rounded-b-xl`}
 `;
 
 export const NavbarWrapper = styled.div`
@@ -22,7 +22,7 @@ export const DesktopNavbarLinks = styled.div`
   border-radius: 0rem 0rem 0.75rem 0.75rem;
 `;
 export const NavbarLink = styled(Link)`
-  ${tw`px-4 font-dmsans duration-200 font-bold`}
+  ${tw`px-4 font-poppins font-semibold duration-200`}
   color: #190C15;
   &:hover {
     background: linear-gradient(91deg, #e84b7d 0.34%, #b02753 99.81%);

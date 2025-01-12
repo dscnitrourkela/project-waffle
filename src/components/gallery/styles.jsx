@@ -1,25 +1,20 @@
 import styled from 'styled-components';
 import tw from 'twin.macro';
 
-import { PrizesHeading, PrizesHeadingContainer } from '../prizes/styles';
+import { QuestionsHeadingContainer } from '../questions/styles';
+import { H1 } from '../shared/typography/Headings';
 
-export const GalleryHeadingContainer = styled(PrizesHeadingContainer)`
-  ${tw`
-   my-5 md:my-20
-    
-  `}
-`;
+export const GalleryHeadingContainer = styled(QuestionsHeadingContainer)``;
 
 export const SectionContainer = styled.div`
   ${tw`
-      my-5
       mx-auto
       max-w-[1540px]
       w-full
       mb-12
   `}
 `;
-export const GalleryHeading = styled(PrizesHeading)``;
+export const GalleryHeading = styled(H1)``;
 
 export const CanvasContainer = styled.div`
   height: 100vh;

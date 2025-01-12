@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 import tw from 'twin.macro';
 
-import { PrizesHeading, PrizesHeadingContainer } from '../prizes/styles';
+import { QuestionsHeadingContainer } from '../questions/styles';
+import { H1 } from '../shared/typography/Headings';
 
 export const SectionContainer = styled.div`
   ${tw`
@@ -9,14 +10,12 @@ export const SectionContainer = styled.div`
   `}
 `;
 
-export const StatsHeadingContainer = styled(PrizesHeadingContainer)`
-  ${tw`max-w-[608px]`}
-`;
+export const StatsHeadingContainer = styled(QuestionsHeadingContainer)``;
 
-export const StatsHeading = styled(PrizesHeading)``;
+export const StatsHeading = styled(H1)``;
 
 export const CardContainer = styled.div`
-  ${tw`flex gap-[20px] items-center`}
+  ${tw`flex gap-[20px] items-center my-10`}
 `;
 
 export const FirstCard = styled.div`

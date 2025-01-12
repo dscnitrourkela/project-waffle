@@ -3,7 +3,6 @@ import tw from 'twin.macro';
 
 export const QuestionsHeadingContainer = styled.div`
   ${tw`
-      mt-32
       border-2
       flex
       bg-[#f6dfc2]
@@ -13,7 +12,6 @@ export const QuestionsHeadingContainer = styled.div`
       md:py-4
       md:px-12
       px-6
-      // font-geist
     `}
   align-items: center;
   gap: 0.625rem;
@@ -53,7 +51,6 @@ export const QuestionAnswer = styled.div`
     text-lg
     font-[350]
     text-[#212529A8]
-    text-wrap
   `}
 `;
 

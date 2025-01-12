@@ -1,12 +1,13 @@
 import { STATSCONTENT } from '@/config/content/stats';
+
 import { Card } from './cards';
 import { CardContainer, SectionContainer, StatsHeading, StatsHeadingContainer } from './styles';
 
 export const StatsMain = () => {
   return (
-    <SectionContainer>
+    <SectionContainer className='mt-20'>
       <StatsHeadingContainer>
-        <StatsHeading>Stats HackNITR 6.0</StatsHeading>
+        <StatsHeading>Stats HackNITR 5.0</StatsHeading>
       </StatsHeadingContainer>
       <CardContainer>
         {STATSCONTENT.map((items, index) => (
