@@ -10,8 +10,10 @@ export const FooterContainer = styled(Body1)`
   text-white
   p-4
   pb-8
+  w-full
   bg-[#1E0918]
 `}
+
   @media (max-width: 800px) {
     ${tw`
     flex-col-reverse
@@ -28,6 +30,7 @@ export const InitialCont = styled.div`
   flex-col
   justify-between		
   `}
+
   @media (max-width: 800px) {
     ${tw`
     w-full
@@ -141,14 +144,7 @@ export const Ball = styled.div`
   }
 
   &:hover {
-    background: linear-gradient(
-      -17.61deg,
-      #ff3fc0 0%,
-      #b067ff 25%,
-      #02daff 50%,
-      #14f195 75%,
-      #fecf29 100%
-    );
+    background: linear-gradient(91deg, #e84b7d 0.34%, #b02753 99.81%);
   }
 `;
 
@@ -169,12 +165,9 @@ const ball1Mob = keyframes`
   100% {
     transform: rotate(15deg);
     background: linear-gradient(
-      -17.61deg,
-      #ff3fc0 0%,
-      #b067ff 25%,
-      #02daff 50%,
-      #14f195 75%,
-      #fecf29 100%
+    91deg,
+     #e84b7d 0.34%,
+     #b02753 99.81%
     );
   }
 `;
@@ -195,12 +188,9 @@ const ball5Mob = keyframes`
   100% {
     transform: rotate(-15deg);
     background: linear-gradient(
-      -17.61deg,
-      #ff3fc0 0%,
-      #b067ff 25%,
-      #02daff 50%,
-      #14f195 75%,
-      #fecf29 100%
+    91deg,
+     #e84b7d 0.34%,
+     #b02753 99.81%
     );
   }
 `;
@@ -211,12 +201,10 @@ const ballColour = keyframes`
   }
   100% {
     background: linear-gradient(
-      -17.61deg,
-      #ff3fc0 0%,
-      #b067ff 25%,
-      #02daff 50%,
-      #14f195 75%,
-      #fecf29 100%
+    91deg,
+     #e84b7d 0.34%,
+     #b02753 99.81%
+    );
     );
   }
 `;
@@ -263,6 +251,7 @@ export const FirstAboutContainer = styled.div`
   ${tw`
   text-white
   p-4
+
   `}
   @media (max-width: 600px) {
     ${tw`
@@ -318,7 +307,7 @@ export const AboutBox = styled.div`
     text-lg
     w-[55vw]
     mx-4
-    my-8
+    my-4
     p-5
     bg-[#F6DFC2]
     border-r-8
@@ -378,8 +367,9 @@ export const LastLine = styled.div`
     flex
     flex-row
     justify-center
-    gap-4	
     items-center
+    mx-2
+    text-xs
   `}
   @media (max-width: 800px) {
     ${tw`
