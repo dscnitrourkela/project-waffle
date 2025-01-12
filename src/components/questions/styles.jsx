@@ -13,6 +13,7 @@ export const QuestionsHeadingContainer = styled.div`
       md:py-4
       md:px-12
       px-6
+      // font-geist
     `}
   align-items: center;
   gap: 0.625rem;
