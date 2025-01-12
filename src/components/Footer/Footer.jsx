@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { footer } from '@/config/content/Footer/index';
-import { FooterContainer, InitialCont, SecondPendulumContainer } from './styles';
+import { BackgroundWrapper, FooterContainer, InitialCont, SecondPendulumContainer } from './styles';
 import TermsNCredits from './TermsNCredits';
 import AboutContainer from './AboutBox';
 import Cradle from './Cradle';
@@ -10,6 +10,7 @@ import Cradle from './Cradle';
 export const Footer = () => {
   return (
     <FooterContainer>
+      {/* <BackgroundWrapper> */}
       <InitialCont>
         <AboutContainer
           AbtLogo={footer.Nitr}
@@ -21,6 +22,7 @@ export const Footer = () => {
       <SecondPendulumContainer>
         <Cradle socials={footer.socials} text={footer.icons} />
       </SecondPendulumContainer>
+      {/* </BackgroundWrapper> */}
     </FooterContainer>
   );
 };

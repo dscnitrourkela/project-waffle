@@ -13,6 +13,8 @@ export const FooterContainer = styled(Body1)`
   w-full
   bg-[#1E0918]
 `}
+  background-image: url('https://res.cloudinary.com/dqqyuvg1v/image/upload/v1736697114/grain_img_deenla.png');
+  background-size: cover;
 
   @media (max-width: 800px) {
     ${tw`
@@ -430,3 +432,13 @@ export const Credits = styled.div`
     `}
   }
 `;
+
+//   export const BackgroundWrapper = styled.div`
+//     ${tw`
+//     relative flex items-center justify-center w-full min-h-screen `}
+//     background-attachment: relative;
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+
+// `;

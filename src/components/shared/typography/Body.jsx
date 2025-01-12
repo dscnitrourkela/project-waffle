@@ -11,6 +11,6 @@ export const Body1 = styled.p`
    md:leading-7
 
    text-white
-   font-prompt
+   font-poppins
 `}
 `;
