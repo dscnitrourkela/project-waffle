@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import tw from 'twin.macro';
+import { GalleryHeadingContainer } from '../gallery/styles';
 
 const Container = styled.div`
   ${tw`relative flex flex-col items-center justify-between w-full max-w-6xl px-4 mx-auto sm:px-6 md:px-8 md:flex-row lg:px-12`}
@@ -24,17 +25,10 @@ const IllustrationSection = styled.div`
   ${tw`w-full pl-0 mt-6 md:w-1/2 md:mt-0 md:pl-8`}
 `;
 
-const TitleContainer = styled.div`
-  ${tw`flex justify-center w-full mt-24 mb-6 sm:mb-8`}
+const TitleContainer = styled(GalleryHeadingContainer)`
+  ${tw`flex justify-center px-4 py-3 mx-auto mt-32 mb-2 rounded-lg w-fit sm:mb-6 sm:px-6 sm:py-4 md:px-4 md:mb-24 lg:px-8 xl:py-5`}
   background: #f6dfc2;
   border-radius: 1.125rem;
-  display: inline-flex;
-  padding: 1rem 3rem;
-  justify-content: center;
-  align-items: center;
-  gap: 0.625rem;
-  margin-inline: auto;
-  width: fit-content;
 `;
 
 const ItemContainer = styled.li`

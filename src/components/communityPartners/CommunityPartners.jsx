@@ -19,13 +19,14 @@ import {
   COMMUNITY_PARTNER,
   DETAILS,
 } from '@/config/content/CommunityPartners/index.js';
+import { GalleryHeading } from '../gallery/styles';
 
 const CommunityPartnerSection = () => {
   return (
     <>
       <>
         <TitleContainer>
-          <H1>{DETAILS.title}</H1>
+          <GalleryHeading>{DETAILS.title}</GalleryHeading>
         </TitleContainer>
 
         <Container>

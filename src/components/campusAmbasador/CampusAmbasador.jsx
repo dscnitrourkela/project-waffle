@@ -24,13 +24,14 @@ import {
   CAMPUS_AMBASADOR,
   DETAILS,
 } from '@/config/content/CampusAmbasador/index.js';
+import { GalleryHeading } from '../gallery/styles';
 
 const CampusAmbasador = () => {
   return (
     <>
       <>
         <TitleContainer>
-          <H1>{DETAILS.title}</H1>
+          <GalleryHeading>{DETAILS.title}</GalleryHeading>
         </TitleContainer>
 
         <Container>

@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import tw from 'twin.macro';
+import { GalleryHeadingContainer } from '../gallery/styles';
 
 const Container = styled.div`
   ${tw`relative flex flex-col items-center justify-between w-full px-4 mx-auto sm:max-w-md sm:px-6 md:max-w-full md:px-8 md:flex-row lg:max-w-6xl lg:px-12 xl:max-w-7xl`}
@@ -34,8 +35,8 @@ const IllustrationSection = styled.div`
       xl:pl-8`}
 `;
 
-const TitleContainer = styled.div`
-  ${tw`flex justify-center px-4 py-3 mx-auto mt-32 mb-2 rounded-lg w-fit sm:mb-6 sm:px-6 sm:py-4 md:px-4 md:mb-8 lg:px-8 xl:py-5`}
+const TitleContainer = styled(GalleryHeadingContainer)`
+  ${tw`flex justify-center px-4 py-3 mx-auto mt-32 mb-2 rounded-lg w-fit sm:mb-6 sm:px-6 sm:py-4 md:px-4 md:mb-24 lg:px-8 xl:py-5`}
   background: #f6dfc2;
   border-radius: 1.125rem;
 `;
