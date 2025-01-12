@@ -7,7 +7,7 @@ const Container = styled.div`
 `;
 
 const ContentSection = styled.div`
-  ${tw`flex flex-col w-full mb-8 space-y-0 sm:space-y-6 md:w-1/2 md:mb-0`}
+  ${tw`flex flex-col w-full mt-8 mb-8 space-y-0 sm:space-y-6 md:w-1/2 md:mb-0`}
 `;
 
 const Description = styled.p`
