@@ -29,7 +29,7 @@ const CommunityPartnerSection = () => {
   return (
     <>
       <>
-        <TitleContainer>
+        <TitleContainer className='mt-10 md:mt-20'>
           <GalleryHeading>{DETAILS.title}</GalleryHeading>
         </TitleContainer>
 

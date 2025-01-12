@@ -31,6 +31,7 @@ const Navbar = () => {
           className='md:w-20 w-14 md:h-20 h-14 p-1'
           width={70}
           height={70}
+          onClick={() => window.location.replace('/')}
         />
         <DesktopNavbar>
           <DesktopNavbarLinks>

@@ -31,13 +31,12 @@ const CampusAmbasador = () => {
   return (
     <>
       <>
-        <TitleContainer>
+        <TitleContainer className='mt-10 md:mt-20'>
           <GalleryHeading>{DETAILS.title}</GalleryHeading>
         </TitleContainer>
 
         <Container>
           <IllustrationSection>
-            {/* <img src={CAMPUS_AMBASADOR} alt='Community ambassador' className='w-full h-auto' /> */}
             <Image
               src={CAMPUS_AMBASADOR}
               alt='Campus ambassador'

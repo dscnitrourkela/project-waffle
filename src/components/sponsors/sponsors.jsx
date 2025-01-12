@@ -1,10 +1,10 @@
-import { AlphaCard, BetaCard, DeltaCard } from './sponsor-card';
 import { TimeLineHeading, TimelineHeadingContainer } from '../timeline/styles';
+import { AlphaCard, BetaCard, DeltaCard } from './sponsor-card';
 
 export const Sponsors = () => {
   return (
     <>
-      <div className='flex w-full justify-center mb-12'>
+      <div className='flex w-full justify-center mb-12' id='Sponsors'>
         <TimelineHeadingContainer>
           <TimeLineHeading>Sponsors</TimeLineHeading>
         </TimelineHeadingContainer>
