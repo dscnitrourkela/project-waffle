@@ -9,7 +9,7 @@ import { PrizesContainer, PrizesContent, PrizesHeading, PrizesHeadingContainer }
 function Prizes() {
   return (
     <PrizesContainer>
-      <div className='my-5 md:my-20'>
+      <div className='my-20'>
         <PrizesHeadingContainer>
           <PrizesHeading>Prizes</PrizesHeading>
         </PrizesHeadingContainer>

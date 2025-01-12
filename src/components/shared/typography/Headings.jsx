@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import tw from 'twin.macro';
 
 export const H1 = styled.h1`
-  ${tw`text-4xl font-poppins py-[0.45rem] md:py-2 font-semibold leading-tight tracking-tighter sm:text-5xl md:text-6xl`}
+  ${tw`text-2xl font-poppins py-[0.45rem] md:py-2 font-semibold leading-tight tracking-tighter ssm:text-4xl smd:text-5xl md:text-6xl`}
   background: linear-gradient(91deg, #E84B7D 0.34%, #B02753 99.81%);
   -webkit-background-clip: text;
   background-clip: text;

@@ -1,19 +1,14 @@
-// 
-
 import withTwin from './withTwin.mjs';
 
 /**
  * @type {import('next').NextConfig}
  */
-const nextConfig = withTwin({
+const nextConfig = {
   reactStrictMode: true,
   images: {
-    remotePatterns: [
-      {
-        hostname: 'res.cloudinary.com',
-      },
-    ],
+    domains: ['res.cloudinary.com'],
   },
-});
+  transpilePackages: ['geist'],
+};
 
-export default nextConfig;
+export default withTwin(nextConfig);
