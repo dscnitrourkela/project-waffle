@@ -13,7 +13,9 @@ import Timeline from '@/components/timeline/timeline';
 
 const Playground = () => {
   return (
-    <div className='flex items-center justify-center flex-col w-full h-full px-5'>
+
+    <div className='flex flex-col items-center justify-center w-full h-full px-5'>
+
       <Hero />
       <AboutUs />
       <StatsMain />
