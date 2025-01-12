@@ -20,3 +20,18 @@ export const H3 = styled.h3`
 export const Paragraph = styled.p`
   ${tw`text-white font-inter text-base font-normal leading-relaxed text-justify sm:text-lg md:text-xl`}
 `;
+
+export const Heading3 = styled.h3`
+  font-weight: ${(props) => (props.semibold ? '600' : '400')};
+  ${tw` 
+   text-2xl
+   leading-9
+
+   md:text-3xl
+   md:leading-10
+
+   text-[#cd3a69]
+   font-prompt
+`}
+  ${(props) => props.italic && 'font-style: italic;'}
+`;
