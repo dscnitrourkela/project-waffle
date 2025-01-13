@@ -21,7 +21,7 @@ export const DevfolioButton = styled.button`
   display: flex;
   justify-content: center;
   margin: 0;
-  ${tw`font-nunito w-full sm:w-[200px] md:w-[220px]  h-[50px] md:h-[68px]`}
+  ${tw`font-nunito w-full ssm:w-[200px] md:w-[220px]  h-[50px] md:h-[68px]`}
   gap:10px
 `;
 
