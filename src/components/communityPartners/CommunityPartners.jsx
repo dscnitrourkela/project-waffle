@@ -24,6 +24,7 @@ import {
   Text,
   TitleContainer,
 } from './styles';
+import { SvgIconContainer } from '../campusAmbasador/styles';
 
 const CommunityPartnerSection = () => {
   return (
@@ -39,7 +40,9 @@ const CommunityPartnerSection = () => {
             <ul>
               {BULLET_POINTS.map((item, index) => (
                 <ItemContainer key={index}>
-                  <SvgIcon />
+                  <SvgIconContainer>
+                    <SvgIcon />
+                  </SvgIconContainer>
                   <Text>{item.description}</Text>
                 </ItemContainer>
               ))}

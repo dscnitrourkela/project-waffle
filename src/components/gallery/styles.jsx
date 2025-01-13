@@ -14,7 +14,9 @@ export const SectionContainer = styled.div`
       mb-12
   `}
 `;
-export const GalleryHeading = styled(H1)``;
+export const GalleryHeading = styled(H1)`
+  ${tw`text-center`}
+`;
 
 export const CanvasContainer = styled.div`
   height: 100vh;

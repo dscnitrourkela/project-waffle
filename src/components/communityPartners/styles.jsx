@@ -42,7 +42,7 @@ const OuterCover = styled.div`
 `;
 
 const InnerCover = styled.div`
-  ${tw`ssm:ml-10 flex flex-col items-center ssm:items-start justify-start`}
+  ${tw`flex flex-col items-center justify-start ssm:ml-10 ssm:items-start`}
 `;
 
 export {

@@ -5,6 +5,7 @@ import Image from 'next/image';
 import {
   BULLET_POINTS,
   CAMPUS_AMBASADOR,
+  CAMPUS_AMBASADOR_LINK,
   DETAILS,
 } from '@/config/content/CampusAmbasador/index.js';
 
@@ -26,6 +27,7 @@ import {
   Title,
   TitleContainer,
 } from './styles';
+import { handleRedirect } from '@/utils/handleRedirect';
 
 const CampusAmbasador = () => {
   return (
@@ -64,7 +66,10 @@ const CampusAmbasador = () => {
             </ul>
             <InnerCover>
               <End>{DETAILS.end}</End>
-              <PrimaryButton text={DETAILS.button} />
+              <PrimaryButton
+                text={DETAILS.button}
+                onClick={() => handleRedirect(CAMPUS_AMBASADOR_LINK)}
+              />
             </InnerCover>
           </ContentSection>
         </Container>
