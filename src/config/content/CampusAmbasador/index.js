@@ -30,3 +30,5 @@ export const DETAILS = {
   end: 'Join us as a Campus Ambassador and leave your mark!',
   button: 'Apply Now',
 };
+
+export const CAMPUS_AMBASADOR_LINK = 'https://tally.so/r/wAAKWB';
