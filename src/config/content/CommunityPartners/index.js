@@ -23,7 +23,7 @@ export const COMMUNITY_PARTNER =
 export const DETAILS = {
   title: 'Become a community partner',
   des: 'What’s in store for you?',
-  end: 'Join us as community partner and make an impact!',
+  end: 'Join us as a Community Partner!',
   button: 'Apply Now',
 };
 
