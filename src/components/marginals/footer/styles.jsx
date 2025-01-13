@@ -428,6 +428,7 @@ export const Credits = styled.div`
   ${tw`
   mx-2
   px-8
+  
   `}
   @media (max-width: 1000px) {
     ${tw`
