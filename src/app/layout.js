@@ -9,7 +9,7 @@ import StyledComponentsRegistry from '@/lib/registry';
 import { dmsans, inter, poppins, prompt, proza, satoshi } from '../fonts/fonts';
 
 export const metadata = {
-  title: 'HackNitR',
+  title: 'HackNITR 6.0',
   description: 'HackNitR is a hackathon hosted by the National Institute of Technology, Rourkela.',
 };
 
