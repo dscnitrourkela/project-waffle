@@ -19,6 +19,7 @@ module.exports = {
         satoshi: 'var(--Satoshi)',
         poppins: 'var(--Poppins)',
         geist: 'var(--font-geist-sans)',
+        nunito: 'var(--Nunito_Sans)',
       },
       screens: {
         smd: '640px',

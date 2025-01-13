@@ -7,7 +7,7 @@ import tw from 'twin.macro';
 import { DICKLET, DISCORD } from '@/config/content/typgraphy';
 
 const ButtonWrapper = styled.div`
-  ${tw`relative inline-block`}
+  ${tw`relative inline-block w-full sm:w-auto`}
 `;
 
 const BackLayer = styled.div`
@@ -23,7 +23,7 @@ const BackLayer = styled.div`
 `;
 
 const FrontLayer = styled.button`
-  ${tw`relative rounded-lg font-poppins font-semibold flex items-center justify-center duration-200 overflow-hidden`}
+  ${tw`relative rounded-lg font-poppins font-semibold flex items-center justify-center duration-200 overflow-hidden w-full sm:w-auto `}
   background: ${({ gradient }) => gradient};
   color: ${({ color }) => color};
   border: ${({ border }) => border || 'none'};
