@@ -1,7 +1,7 @@
 import styled, { keyframes } from 'styled-components';
 import tw from 'twin.macro';
 
-import { Body1 } from '../shared/typography/Body';
+import { Body1 } from '@/components/shared/typography/Body';
 
 export const FooterContainer = styled(Body1)`
   ${tw`

@@ -2,9 +2,9 @@ import React from 'react';
 
 import { AnimatePresence } from 'framer-motion';
 
-import { MobileNavbar, MobileNavbarWrapper, NavbarLink, MobileNavbarContainer } from './styles';
+import { MobileNavbar, MobileNavbarWrapper, NavbarLink } from './styles';
 
-function MobileNav({ isOpen, navLinks }) {
+function MobileNav({ isOpen, navLinks, handleClose }) {
   return (
     <AnimatePresence>
       {isOpen && (
@@ -16,7 +16,7 @@ function MobileNav({ isOpen, navLinks }) {
         >
           <MobileNavbarWrapper>
             {navLinks.map((link) => (
-              <NavbarLink key={link.text} href={link.href}>
+              <NavbarLink key={link.text} href={link.href} onClick={handleClose}>
                 {link.text}
               </NavbarLink>
             ))}
