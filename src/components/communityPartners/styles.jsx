@@ -4,7 +4,7 @@ import tw from 'twin.macro';
 import { GalleryHeadingContainer } from '../gallery/styles';
 
 const Container = styled.div`
-  ${tw`relative flex flex-col items-center justify-between w-full max-w-6xl px-4 mx-auto sm:px-6 md:px-8 md:flex-row lg:px-12 my-10`}
+  ${tw`relative flex flex-col items-center justify-between w-full max-w-6xl px-4 mx-auto my-10 sm:px-6 md:px-8 md:flex-row lg:px-12`}
 `;
 
 const ContentSection = styled.div`
@@ -42,7 +42,7 @@ const OuterCover = styled.div`
 `;
 
 const InnerCover = styled.div`
-  ${tw`ssm:ml-10 flex flex-col items-center ssm:items-start justify-start`}
+  ${tw`flex flex-col items-center justify-start ssm:ml-10 ssm:items-start`}
 `;
 
 export {

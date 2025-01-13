@@ -41,10 +41,8 @@ const CommunityPartnerSection = () => {
               {BULLET_POINTS.map((item, index) => (
                 <ItemContainer key={index}>
                   <SvgIconContainer>
-                    {' '}
                     <SvgIcon />
                   </SvgIconContainer>
-
                   <Text>{item.description}</Text>
                 </ItemContainer>
               ))}
