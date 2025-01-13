@@ -7,7 +7,13 @@ const RegisterButton = () => {
   return (
     <Container>
       <DevfolioButton onClick={() => handleRedirect(DEVFOLIO_LINK)}>
-        <Image src={DEVFOLIO_ICON} height={24} width={24} alt='devfolio' />
+        <Image
+          src={DEVFOLIO_ICON}
+          height={24}
+          width={24}
+          alt='devfolio'
+          className='text-[#27333f] invert'
+        />
         <Text>Apply on Devfolio</Text>
       </DevfolioButton>
     </Container>

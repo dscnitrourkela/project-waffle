@@ -19,13 +19,15 @@ export const StatsMain = () => {
           </div>
         ))}
       </CardContainer>
-      <CardContainer>
-        {STATSROW2.map((items, index) => (
-          <div style={{ marginTop: '-70px' }} key={index}>
-            <Card imgUrl={items.image} />
-          </div>
-        ))}
-      </CardContainer>
+      <div className='-mt-8 px-14 ssm:px-16'>
+        <CardContainer>
+          {STATSROW2.map((items, index) => (
+            <div style={{ marginTop: '-70px' }} key={index}>
+              <Card imgUrl={items.image} />
+            </div>
+          ))}
+        </CardContainer>
+      </div>
     </SectionContainer>
   );
 };
