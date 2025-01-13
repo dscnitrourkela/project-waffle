@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import tw from 'twin.macro';
 
 export const ParentContainer = styled.main`
-  ${tw`min-h-[90vh] bg-[#200818] grid place-items-center`}
+  ${tw`min-h-[90vh] grid place-items-center`}
 `;
 export const HeroImage = styled(Image)`
   ${tw`w-full h-auto pb-10`}

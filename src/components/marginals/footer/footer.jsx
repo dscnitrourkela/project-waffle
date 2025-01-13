@@ -12,7 +12,6 @@ import TermsNCredits from './termsNcredits';
 export const Footer = () => {
   return (
     <FooterContainer>
-      {/* <BackgroundWrapper> */}
       <InitialCont>
         <AboutContainer
           AbtLogo={footer.Nitr}
@@ -24,7 +23,6 @@ export const Footer = () => {
       <SecondPendulumContainer>
         <Cradle socials={footer.socials} text={footer.icons} />
       </SecondPendulumContainer>
-      {/* </BackgroundWrapper> */}
     </FooterContainer>
   );
 };

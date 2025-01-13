@@ -24,6 +24,7 @@ export default function RootLayout({ children }) {
           <GlobalStyles />
           <HOC>{children}</HOC>
         </StyledComponentsRegistry>
+        <script defer async src='https://apply.devfolio.co/v2/sdk.js'></script>
       </body>
     </html>
   );

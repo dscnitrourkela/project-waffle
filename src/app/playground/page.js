@@ -19,7 +19,7 @@ const Playground = () => {
       <AboutUs />
       <StatsMain />
       <Prizes />
-      <Gallery /> 
+      <Gallery />
       <Timeline />
       <Sponsors />
       <CommunityPartnerSection />

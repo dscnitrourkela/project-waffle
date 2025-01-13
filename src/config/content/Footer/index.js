@@ -134,14 +134,17 @@ export const footer = {
   ],
   impLinks: [
     {
+      id: 'terms',
       text: 'Terms and Conditions',
       href: 'https://drive.google.com/file/d/1qW9PXMEooyCULlhTK8HOcj2gZk8Bz4vj/view?usp=sharing',
     },
     {
+      id: 'privacy',
       text: 'Privacy Policy',
       href: 'https://drive.google.com/file/d/18w9fE4ZhUrugPAlXH7tqxbKQ16Cr6lqn/view?pli=1',
     },
     {
+      id: 'conduct',
       text: 'Code of Conduct',
       href: ' https://static.mlh.io/docs/mlh-code-of-conduct.pdf',
     },

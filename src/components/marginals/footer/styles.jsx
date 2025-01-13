@@ -332,7 +332,7 @@ export const AboutBox = styled.div`
   }
 `;
 
-export const Para = styled.p`
+export const Para = styled.div`
   ${tw`
     flex
     flex-col
@@ -347,7 +347,7 @@ export const Content = styled.p`
     `}
 `;
 
-export const LogoCont = styled.span`
+export const LogoCont = styled.div`
   ${tw`
   w-[250px]
 `}
