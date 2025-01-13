@@ -2,7 +2,7 @@
 import React from 'react';
 
 const RegisterButton = () => {
-  React.useEffect(() => {
+  React.useLayoutEffect(() => {
     const script = document.createElement('script');
     script.src = 'https://apply.devfolio.co/v2/sdk.js';
     script.async = true;

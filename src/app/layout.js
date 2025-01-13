@@ -5,7 +5,7 @@ import { GeistSans } from 'geist/font/sans';
 import HOC from '@/components/shared/hoc/HOC';
 import GlobalStyles from '@/GlobalStyles';
 import StyledComponentsRegistry from '@/lib/registry';
-
+import Head from 'next/head';
 import { dmsans, inter, poppins, prompt, proza, satoshi } from '../fonts/fonts';
 
 export const metadata = {
@@ -24,7 +24,6 @@ export default function RootLayout({ children }) {
           <GlobalStyles />
           <HOC>{children}</HOC>
         </StyledComponentsRegistry>
-        <script defer async src='https://apply.devfolio.co/v2/sdk.js'></script>
       </body>
     </html>
   );
