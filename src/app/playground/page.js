@@ -14,7 +14,7 @@ import { Sponsors } from '@/components/sponsors/sponsors';
 
 const Playground = () => {
   return (
-    <div className='flex flex-col items-center justify-center w-full h-full px-5'>
+    <div className='flex flex-col items-center justify-center w-full h-full px-0 md:px-5'>
       <Hero />
       <AboutUs />
       <StatsMain />

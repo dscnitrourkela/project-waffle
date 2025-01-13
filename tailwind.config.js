@@ -26,6 +26,7 @@ module.exports = {
         msm: '550px',
         ssm: '430px',
         sm: '400px',
+        slg: '1060px',
       },
       boxShadow: {
         custom: '8px 8px 0px 0px #a73157',

@@ -9,7 +9,7 @@ import { PrizesContainer, PrizesContent, PrizesHeading, PrizesHeadingContainer }
 function Prizes() {
   return (
     <PrizesContainer>
-      <div className='my-20'>
+      <div className='mt-20 md:my-20'>
         <PrizesHeadingContainer>
           <PrizesHeading>Prizes</PrizesHeading>
         </PrizesHeadingContainer>
@@ -19,7 +19,7 @@ function Prizes() {
           <PrizeCard prize={prize} key={prize.amount} />
         ))}
       </PrizesContent>
-      <H3 className='mt-5'>Grab your winning tickets!</H3>
+      <H3 className=' md:mt-5'>Grab your winning tickets!</H3>
     </PrizesContainer>
   );
 }
