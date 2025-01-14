@@ -21,7 +21,7 @@ export const COMMUNITY_PARTNER =
   'https://res.cloudinary.com/dqqyuvg1v/image/upload/v1736605064/Creative_team-pana_1_e44c17.png';
 
 export const DETAILS = {
-  title: 'Become a community partner',
+  title: 'Become a Community partner',
   des: 'What’s in store for you?',
   end: 'Join us as a Community Partner!',
   button: 'Apply Now',
