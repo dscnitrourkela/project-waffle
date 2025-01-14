@@ -8,46 +8,38 @@ import {
   SponsorImage,
   SponsorCategory,
 } from './styles';
-import { SponsorsData } from '@/config/content/sponsors';
 
-export const AlphaCard = () => {
+const Card = ({ sponsors, CardContainer }) => {
   return (
-    <div className='flex flex-col md:flex-row gap-8 justify-center items-center'>
-      {SponsorsData.Alpha.map((sponsor) => (
-        <AlphaCardContainer key={sponsor.name}>
+    <div className='flex flex-col md:flex-row gap-10 justify-center items-center'>
+      {sponsors.map((sponsor) => (
+        <CardContainer key={sponsor.name}>
           <InnerCardContainer>
             <SponsorImage src={sponsor.imageURL} alt={sponsor.name} />
             <SponsorCategory>{sponsor.SponsorsCategory}</SponsorCategory>
           </InnerCardContainer>
-        </AlphaCardContainer>
+        </CardContainer>
       ))}
     </div>
   );
 };
 
-export const BetaCard = () => {
-  return (
-    <div className='flex flex-col md:flex-row gap-x-8 gap-y-5 justify-center items-center'>
-      {SponsorsData.Beta.map((sponsor) => (
-        <BetaCardContainer key={sponsor.name}>
-          <InnerCardContainer>
-            <SponsorImage src={sponsor.imageURL} alt={sponsor.name} />
-            <SponsorCategory>{sponsor.SponsorsCategory}</SponsorCategory>
-          </InnerCardContainer>
-        </BetaCardContainer>
-      ))}
-    </div>
-  );
+export const AlphaCard = ({ sponsors }) => {
+  return <Card sponsors={sponsors} CardContainer={AlphaCardContainer} />;
 };
 
-export const DeltaCard = () => {
+export const BetaCard = ({ sponsors }) => {
+  return <Card sponsors={sponsors} CardContainer={BetaCardContainer} />;
+};
+
+export const DeltaCard = ({ sponsors }) => {
   return (
     <>
       {/* Mobile view with marquee */}
-      <div className='block md:hidden'>
-        <Marquee gradient={false} speed={50} pauseOnHover={true} className='w-full gap-x-8'>
+      <div className='block md:hidden mr-[-6px] ml-[-3px]'>
+        <Marquee gradient={false} speed={50} pauseOnHover={false} className='w-full gap-x-8'>
           <div className='flex gap-8'>
-            {SponsorsData.Delta.map((sponsor) => (
+            {sponsors.map((sponsor) => (
               <DeltaCardContainer key={sponsor.name}>
                 <InnerCardContainer>
                   <SponsorImage src={sponsor.imageURL} alt={sponsor.name} />
@@ -60,8 +52,8 @@ export const DeltaCard = () => {
       </div>
 
       {/* Desktop view without marquee */}
-      <div className='hidden md:flex flex-row gap-8 justify-center items-center flex-wrap'>
-        {SponsorsData.Delta.map((sponsor) => (
+      <div className='hidden md:flex flex-row gap-10 justify-center items-center flex-wrap'>
+        {sponsors.map((sponsor) => (
           <DeltaCardContainer key={sponsor.name}>
             <InnerCardContainer>
               <SponsorImage src={sponsor.imageURL} alt={sponsor.name} />
