@@ -4,11 +4,11 @@ import tw from 'twin.macro';
 import { GalleryHeadingContainer } from '../gallery/styles';
 
 const Container = styled.div`
-  ${tw`relative flex flex-col items-center justify-between w-full max-w-6xl px-4 mx-auto my-10 sm:px-6 md:px-8 md:flex-row lg:px-12`}
+  ${tw`relative flex flex-col-reverse items-center justify-between w-full max-w-6xl mx-auto slg:flex-row my-10`}
 `;
 
 const ContentSection = styled.div`
-  ${tw`flex flex-col w-full mt-8 mb-8 space-y-0 sm:space-y-6 md:w-1/2 md:mb-0`}
+  ${tw`flex flex-col w-full mt-8 mb-8 space-y-0 sm:space-y-6 slg:w-1/2 md:mb-0`}
 `;
 
 const Description = styled.p`
@@ -23,7 +23,7 @@ const End = styled.p`
 `;
 
 const IllustrationSection = styled.div`
-  ${tw`w-full pl-0 mt-6 md:w-1/2 md:mt-0 md:pl-8 sm:mb-3.5`}
+  ${tw`w-full pl-0 mt-6 slg:w-1/2 md:mt-0 md:pl-8 sm:mb-3.5 md:w-[70%]`}
 `;
 
 const TitleContainer = styled(GalleryHeadingContainer)``;
@@ -38,7 +38,7 @@ const Text = styled.p`
 `;
 
 const OuterCover = styled.div`
-  ${tw`w-full max-w-6xl px-4 mx-auto sm:px-6 md:px-8 md:flex-row lg:px-12`}
+  ${tw`w-full max-w-6xl mx-auto  md:flex-row `}
 `;
 
 const InnerCover = styled.div`

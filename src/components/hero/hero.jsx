@@ -1,9 +1,9 @@
 'use client';
 
-import { DEVFOLIO_LINK, DISCORD_LINK, HNTYPO } from '@/config/content/hero/index';
+import { BROCHURE_LINK, DISCORD_LINK, HNTYPO } from '@/config/content/hero';
 import { handleRedirect } from '@/utils/handleRedirect';
-
-import { DiscordButton, PrimaryButton } from '../shared/typography/Button';
+import RegisterButton from '@/components/shared/devfolio/button';
+import { DiscordButton, PrimaryButton } from '@/components/shared/typography/Button';
 import {
   ButtonContainer,
   HeroImage,
@@ -21,8 +21,9 @@ export default function Home() {
           <HeroImage src={HNTYPO} alt='HackNITR 6.0' width={800} height={200} priority />
           <TextStyle>March 1st-2nd, 2025 | NIT Rourkela</TextStyle>
           <ButtonContainer>
-            <PrimaryButton text='Apply on Devfolio' onClick={() => handleRedirect(DEVFOLIO_LINK)} />
-            <DiscordButton onClick={() => handleRedirect(DISCORD_LINK)} />
+            <RegisterButton />
+            {/* <PrimaryButton text='View Brochure' onClick={() => handleRedirect(BROCHURE_LINK)} /> */}
+            <DiscordButton onClick={() => handleRedirect(DISCORD_LINK)} text='Join Discord' />
           </ButtonContainer>
         </SectionContainer2>
       </SectionContainer>

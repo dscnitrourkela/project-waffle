@@ -3,7 +3,7 @@ export const QUESTIONS_DATA = [
     id: 1,
     question: 'What are the dates for HackNITR 6.0?',
     answer:
-      'HackNITR 6.0 will be held on 2nd and 3rd March, 2024. We will be waiting for you with a warm welcome.',
+      'HackNITR 6.0 will be held on 1st and 2nd March, 2025. We will be waiting for you with a warm welcome.',
   },
   {
     id: 2,
@@ -11,12 +11,12 @@ export const QUESTIONS_DATA = [
     answer:
       "We're only looking for groups of 2 to 4 heroes this time. No solo adventurers allowed. Gather your buddies and get ready for an epic adventure together!",
   },
-  {
-    id: 3,
-    question: 'How do I pre-register for the hackathon?',
-    answer:
-      "You can click the pre-register button on our website for pre-registrations. Fill in the form and let's start the journey.",
-  },
+  // {
+  //   id: 3,
+  //   question: 'How do I pre-register for the hackathon?',
+  //   answer:
+  //     "You can click the pre-register button on our website for pre-registrations. Fill in the form and let's start the journey.",
+  // },
   {
     id: 4,
     question: 'Will my travel expenses be reimbursed?',
@@ -47,12 +47,7 @@ export const QUESTIONS_DATA = [
     answer:
       'Of course!! Meals, water, snacks and most importantly- Coffee, will be provided FREE OF COST.',
   },
-  {
-    id: 9,
-    question: 'Who can participate?',
-    answer:
-      'Any student with a zeal to innovate and have some fun with creativity can apply. But the status of your application can be changed anytime by the organizing team. The final decision is vested with the organizing team and the candidature can be changed based on the undertaking.',
-  },
+
   {
     id: 10,
     question: 'What all things do you need to with while attending the hackathon?',
