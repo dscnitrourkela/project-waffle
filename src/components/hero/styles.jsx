@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import tw from 'twin.macro';
 
 export const ParentContainer = styled.main`
-  ${tw`min-h-[90vh] bg-[#200818] grid place-items-center`}
+  ${tw`min-h-[90vh] grid place-items-center`}
 `;
 export const HeroImage = styled(Image)`
   ${tw`w-full h-auto pb-10`}
@@ -13,7 +13,7 @@ export const TextStyle = styled.div`
 `;
 
 export const ButtonContainer = styled.div`
-  ${tw`flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6`}
+  ${tw`flex flex-col items-center justify-center gap-4 sm:gap-6`}
 `;
 
 export const SectionContainer = styled.div`

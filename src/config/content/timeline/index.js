@@ -4,7 +4,7 @@ export const TIMELINE = {
     {
       serialid: 1,
       title: 'Registration',
-      duration: 'Duration: 10 Jan to 25 Jan',
+      duration: 'Duration: 10 Jan to 26 Jan',
       color: '#35E1FF',
       description: 'Registration period for HackNITR 6.0',
     },

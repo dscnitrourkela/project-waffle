@@ -1,16 +1,17 @@
 'use client';
 
 import React from 'react';
+
 import { footer } from '@/config/content/Footer/index';
-import { BackgroundWrapper, FooterContainer, InitialCont, SecondPendulumContainer } from './styles';
-import TermsNCredits from './TermsNCredits';
-import AboutContainer from './AboutBox';
-import Cradle from './Cradle';
+
+import AboutContainer from './about-box';
+import Cradle from './cradle';
+import { FooterContainer, InitialCont, SecondPendulumContainer } from './styles';
+import TermsNCredits from './termsNcredits';
 
 export const Footer = () => {
   return (
     <FooterContainer>
-      {/* <BackgroundWrapper> */}
       <InitialCont>
         <AboutContainer
           AbtLogo={footer.Nitr}
@@ -22,7 +23,6 @@ export const Footer = () => {
       <SecondPendulumContainer>
         <Cradle socials={footer.socials} text={footer.icons} />
       </SecondPendulumContainer>
-      {/* </BackgroundWrapper> */}
     </FooterContainer>
   );
 };

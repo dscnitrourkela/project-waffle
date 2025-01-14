@@ -1,7 +1,7 @@
 import styled, { keyframes } from 'styled-components';
 import tw from 'twin.macro';
 
-import { Body1 } from '../shared/typography/Body';
+import { Body1 } from '@/components/shared/typography/Body';
 
 export const FooterContainer = styled(Body1)`
   ${tw`
@@ -332,7 +332,7 @@ export const AboutBox = styled.div`
   }
 `;
 
-export const Para = styled.p`
+export const Para = styled.div`
   ${tw`
     flex
     flex-col
@@ -347,7 +347,7 @@ export const Content = styled.p`
     `}
 `;
 
-export const LogoCont = styled.span`
+export const LogoCont = styled.div`
   ${tw`
   w-[250px]
 `}
@@ -428,6 +428,7 @@ export const Credits = styled.div`
   ${tw`
   mx-2
   px-8
+  
   `}
   @media (max-width: 1000px) {
     ${tw`

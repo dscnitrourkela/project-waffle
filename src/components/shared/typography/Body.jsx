@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import tw from 'twin.macro';
 
-export const Body1 = styled.p`
+export const Body1 = styled.div`
   font-weight: ${(props) => (props.semibold ? '600' : '400')};
   ${tw`
    text-base

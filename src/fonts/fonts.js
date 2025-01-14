@@ -1,4 +1,4 @@
-import { DM_Sans, Inter, Poppins, Prompt, Proza_Libre } from 'next/font/google';
+import { DM_Sans, Inter, Poppins, Prompt, Proza_Libre, Nunito_Sans } from 'next/font/google';
 import localFont from 'next/font/local';
 
 export const proza = Proza_Libre({
@@ -33,5 +33,11 @@ export const satoshi = localFont({
 export const poppins = Poppins({
   variable: '--Poppins',
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+  subsets: ['latin'],
+});
+
+export const nunitosans = Nunito_Sans({
+  variable: '--Nunito_Sans',
+  weight: ['200', '300', '400', '600'],
   subsets: ['latin'],
 });

@@ -14,6 +14,7 @@ export const QuestionsHeadingContainer = styled.div`
       px-6
     `}
   align-items: center;
+  text-align: center;
   gap: 0.625rem;
 `;
 
@@ -64,4 +65,5 @@ export const QuestionHeading = styled.div`
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-align: center;
 `;

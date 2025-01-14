@@ -1,4 +1,4 @@
-import { STATSCONTENT } from '@/config/content/stats';
+import { STATSCONTENT, STATSROW2 } from '@/config/content/stats';
 
 import { Card } from './cards';
 import { CardContainer, SectionContainer, StatsHeading, StatsHeadingContainer } from './styles';
@@ -19,6 +19,15 @@ export const StatsMain = () => {
           </div>
         ))}
       </CardContainer>
+      <div className='-mt-8 px-14 ssm:px-16'>
+        <CardContainer>
+          {STATSROW2.map((items, index) => (
+            <div style={{ marginTop: '-70px' }} key={index}>
+              <Card imgUrl={items.image} />
+            </div>
+          ))}
+        </CardContainer>
+      </div>
     </SectionContainer>
   );
 };

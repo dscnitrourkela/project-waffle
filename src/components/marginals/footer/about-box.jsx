@@ -1,16 +1,18 @@
 'use client';
 
 import React from 'react';
-import { Heading3 } from '../shared/typography/Headings';
+
+import { Heading3 } from '@/components/shared/typography/Headings';
+
 import {
+  AboutBox,
+  Content,
   FirstAboutContainer,
   FirstRow,
   FrItems,
-  AboutBox,
-  Para,
-  Content,
   LogoCont,
   LogoImg,
+  Para,
 } from './styles';
 
 const AboutContainer = ({ AbtLogo, aboutContent, abtLinks }) => (

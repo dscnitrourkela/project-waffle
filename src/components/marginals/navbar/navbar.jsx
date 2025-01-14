@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 
 import { HN_LOGO, NAVBAR_LINKS } from '@/config/content/marginals';
+import { handleRedirect } from '@/utils/handleRedirect';
 
 import MobileNav from './mobile-navbar';
 import {
@@ -31,7 +32,7 @@ const Navbar = () => {
           className='md:w-20 w-14 md:h-20 h-14 p-1'
           width={70}
           height={70}
-          onClick={() => window.location.replace('/')}
+          onClick={() => handleRedirect('/')}
         />
         <DesktopNavbar>
           <DesktopNavbarLinks>
@@ -48,7 +49,7 @@ const Navbar = () => {
         </ToggleButton>
       </NavbarWrapper>
 
-      <MobileNav isOpen={isOpen} navLinks={NAVBAR_LINKS} />
+      <MobileNav isOpen={isOpen} navLinks={NAVBAR_LINKS} handleClose={() => setIsOpen(false)} />
     </NavbarContainer>
   );
 };
