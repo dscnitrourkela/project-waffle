@@ -4,7 +4,7 @@ import tw from 'twin.macro';
 export const AlphaCardContainer = styled.div`
   ${tw`
     flex flex-col justify-center items-center 
-    w-[300px] h-[150px] md:w-[360px] md:h-[180px] 
+    w-[290px] h-[140px] md:w-[360px] md:h-[180px] 
     bg-[#f6dfc2] mb-16 rounded-2xl 
     shadow-[7px_7px_0px_0px_#d47384] 
     transition-all duration-300 ease-in-out 
@@ -47,7 +47,7 @@ export const AlphaCardContainer = styled.div`
 export const BetaCardContainer = styled.div`
   ${tw`
     flex flex-col justify-center items-center 
-    w-[300px] h-[150px]
+    w-[290px] h-[140px] md:w-[300px] md:h-[150px]
     bg-[#f6dfc2] mb-12 rounded-2xl 
     shadow-[7px_7px_0px_0px_#d47384] 
     transition-all duration-300 ease-in-out 
@@ -143,7 +143,7 @@ export const SponsorImage = styled.img.attrs((props) => ({
   src: props.src,
 }))`
   ${tw`
-        w-[180px] h-[80px]
+        p-4 h-[85px]
     `}
 `;
 
