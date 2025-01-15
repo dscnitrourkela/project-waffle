@@ -7,7 +7,7 @@ export const H1 = styled.h1`
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-align: center !important;
+  text-align: center;
 `;
 
 export const H2 = styled.h2`

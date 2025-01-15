@@ -13,7 +13,7 @@ export const TextStyle = styled.div`
 `;
 
 export const ButtonContainer = styled.div`
-  ${tw`flex flex-col items-center justify-center gap-4 sm:gap-6`}
+  ${tw`flex flex-col sm:flex-row items-center justify-center gap-5 sm:gap-6`}
 `;
 
 export const SectionContainer = styled.div`

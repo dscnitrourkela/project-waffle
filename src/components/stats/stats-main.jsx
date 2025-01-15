@@ -7,7 +7,7 @@ export const StatsMain = () => {
   return (
     <SectionContainer className='mt-20' id='Stats'>
       <StatsHeadingContainer>
-        <StatsHeading>Stats HackNITR 5.0</StatsHeading>
+        <StatsHeading>Stats till now</StatsHeading>
       </StatsHeadingContainer>
       <CardContainer>
         {STATSCONTENT.map((items, index) => (

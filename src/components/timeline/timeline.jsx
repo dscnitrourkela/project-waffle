@@ -78,7 +78,7 @@ export default function Timeline() {
         </ProgressBar>
         <div className='flex flex-col md:gap-[36px]'>
           {TIMELINE.nodes.map((node, index) => (
-            <div key={node.serialid} className='flex items-center md:flex-row flex-col'>
+            <div key={node.serialid} className='flex  items-center md:flex-row flex-col'>
               <Branch />
               <Box color={node.color}>
                 <BoxHeading color={node.color}>{node.title}</BoxHeading>
