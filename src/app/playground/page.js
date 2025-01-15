@@ -10,7 +10,7 @@ import Prizes from '@/components/prizes/prizes';
 import Questions from '@/components/questions/Questions';
 import { StatsMain } from '@/components/stats/stats-main';
 import Timeline from '@/components/timeline/timeline';
-import { Sponsors } from '@/components/sponsors/sponsors';
+import { Sponsors, PastSponsors } from '@/components/sponsors/sponsors';
 
 const Playground = () => {
   return (
@@ -22,6 +22,7 @@ const Playground = () => {
       <Gallery />
       <Timeline />
       <Sponsors />
+      <PastSponsors />
       <CommunityPartnerSection />
       <CampusAmbasador />
       <Questions />
