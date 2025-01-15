@@ -13,7 +13,7 @@ import {
   TextStyle,
 } from './styles';
 
-export default function Home() {
+export default function Hero() {
   return (
     <ParentContainer id='Home'>
       <SectionContainer>
