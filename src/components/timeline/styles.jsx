@@ -54,7 +54,8 @@ export const Box = styled.div`
   }
 `;
 export const BoxHeading = styled(H1)`
-  ${tw`text-2xl md:text-3xl font-poppins`}
+  ${tw`text-2xl md:text-3xl  font-poppins`}
+  text-align: left;
 `;
 export const Duration = styled(H3)`
   color: var(--Neutral-2, #454545);
@@ -81,4 +82,6 @@ export const Container = styled.section`
 export const TimelineHeadingContainer = styled(PrizesHeadingContainer)`
   ${tw`my-5 md:my-20`}
 `;
-export const TimeLineHeading = styled(PrizesHeading)``;
+export const TimeLineHeading = styled(PrizesHeading)`
+  ${tw`text-left`}
+`;

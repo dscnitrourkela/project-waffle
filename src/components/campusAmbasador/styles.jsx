@@ -79,7 +79,7 @@ const OuterCover = styled.div`
 `;
 
 const InnerCover = styled.div`
-  ${tw`ssm:ml-10 flex flex-col items-center ssm:items-start justify-start`}
+  ${tw`ssm:ml-10 flex flex-col items-center sm:items-start justify-start`}
 `;
 
 export {

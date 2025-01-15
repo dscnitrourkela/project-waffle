@@ -10,7 +10,7 @@ export const TIMELINE = {
     },
     {
       serialid: 2,
-      title: 'Acceptance Letter rollout',
+      title: 'Acceptance Letter Rollout',
       duration: 'Duration: 16 Feb to 28 Feb',
       color: '#35E1FF',
       description: 'Mails sent to accepted hackers',

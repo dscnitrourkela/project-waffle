@@ -18,11 +18,8 @@ export const FooterContainer = styled(Body1)`
   z-50
   border-t-[1px]
   border-[#F6DFC2]
-  bg-[#1E0918]
+ 
   `}
-
-  background-image: url('https://res.cloudinary.com/dqqyuvg1v/image/upload/v1736697114/grain_img_deenla.png');
-  background-size: 700px 700px;
 
   @media (max-width: 800px) {
     ${tw`
