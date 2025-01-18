@@ -294,6 +294,7 @@ export const FirstRow = styled.div`
 
 export const FrItems = styled.a`
   ${tw`
+  hover:text-[#b02753]
   text-white
   text-xl
   px-4
