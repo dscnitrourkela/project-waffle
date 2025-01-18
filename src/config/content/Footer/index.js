@@ -26,7 +26,7 @@ export const footer = {
     {
       title: 'Sponsor Us',
       id: 'sponsor-us',
-      url: 'https://tally.so/r/3jl2za',
+      url: 'https://tally.so/r/n0o2ZP',
       target: '_blank',
       rel: 'noopener noreferrer',
     },

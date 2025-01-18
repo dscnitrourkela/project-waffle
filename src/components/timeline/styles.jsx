@@ -63,7 +63,7 @@ export const Duration = styled(H3)`
 `;
 export const Description = styled(Paragraph)`
   color: var(--Neutral-4, #454545);
-  ${tw`text-lg font-geist`}
+  ${tw`text-lg font-geist text-left`}
 `;
 export const Container = styled.section`
   ${tw`

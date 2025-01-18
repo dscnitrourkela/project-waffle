@@ -27,7 +27,7 @@ export const TIMELINE = {
       title: 'Winner Announcement',
       duration: 'Date: 02 Mar',
       color: '#35E1FF',
-      description: 'Winner Announcemnet and Closing Ceremony',
+      description: 'Winner Announcement and Closing Ceremony',
     },
   ],
 };
