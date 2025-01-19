@@ -5,8 +5,7 @@ import { useEffect, useState } from 'react';
 
 const Brochure = () => {
   const [showPDF, setShowPDF] = useState(false);
-  const pdfUrl =
-    'https://res.cloudinary.com/dehegwbs0/image/upload/v1737283847/yfqn3zf21quokqn9oneo.pdf';
+  const pdfUrl = 'https://drive.google.com/uc?export=download&id=1K8QSUQ0me8G-iu9YEhs6U78yztD5t4BS';
 
   useEffect(() => {
     setShowPDF(true);
