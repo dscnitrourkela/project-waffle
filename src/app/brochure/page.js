@@ -1,16 +1,15 @@
 'use client';
-import { PrimaryButton } from '@/components/shared/typography/Button';
-import { SectionContainer } from './style';
+import { useEffect, useRef } from 'react';
 
 const Brochure = () => {
-  return (
-    <SectionContainer>
-      <PrimaryButton
-        text='Open Brochure'
-        onClick={() => window.open('/brochure.pdf', '_blank', 'fullscreen=yes')}
-      />
-    </SectionContainer>
-  );
+  const openedRef = useRef(false);
+
+  useEffect(() => {
+    if (!openedRef.current) {
+      window.open('/brochure.pdf', '_blank', 'fullscreen=yes');
+      openedRef.current = true;
+    }
+  }, []);
 };
 
 export default Brochure;
