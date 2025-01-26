@@ -1,6 +1,6 @@
 import React from 'react';
 import { QuestionsContainer, Question, QuestionAnswer, QuestionHeading } from './styles';
-import { QUESTIONS_DATA } from '@/config/content/questions/index';
+import { QUESTIONS_DATA } from '@/config/content/prizes/questions/index';
 
 const DesktopQuestions = () => {
   return (
