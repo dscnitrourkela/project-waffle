@@ -19,7 +19,7 @@ export default function Hero() {
       <SectionContainer>
         <SectionContainer2>
           <HeroImage src={HNTYPO} alt='HackNITR 6.0' width={800} height={200} priority />
-          <TextStyle>March 1st-2nd, 2025 | NIT Rourkela</TextStyle>
+          <TextStyle>April 5th-6th, 2025 | NIT Rourkela</TextStyle>
           <ButtonContainer>
             {/* <RegisterButton /> */}
             <PrimaryButton text='Apply on Devfolio' onClick={() => handleRedirect(DEVFOLIO_LINK)} />

@@ -4,7 +4,7 @@ export const TIMELINE = {
     {
       serialid: 1,
       title: 'Registration',
-      duration: 'Duration: 10 Jan to 26 Jan',
+      duration: 'Duration: 1 Feb to 15 Feb',
       color: '#35E1FF',
       description: 'Registration period for HackNITR 6.0',
     },
@@ -18,14 +18,14 @@ export const TIMELINE = {
     {
       serialid: 3,
       title: 'Hacking Hours',
-      duration: 'Duration: 01 Mar to 02 Mar',
+      duration: 'Duration: 05 April to 06 April',
       color: '#35E1FF',
       description: 'The hackathon period',
     },
     {
       serialid: 4,
       title: 'Winner Announcement',
-      duration: 'Date: 02 Mar',
+      duration: 'Date: 06 April',
       color: '#35E1FF',
       description: 'Winner Announcement and Closing Ceremony',
     },
