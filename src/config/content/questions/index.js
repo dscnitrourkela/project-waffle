@@ -3,7 +3,7 @@ export const QUESTIONS_DATA = [
     id: 1,
     question: 'What are the dates for HackNITR 6.0?',
     answer:
-      'HackNITR 6.0 will be held on 1st and 2nd March, 2025. We will be waiting for you with a warm welcome.',
+      'HackNITR 6.0 will be held on 5th and 6th April, 2025. We will be waiting for you with a warm welcome.',
   },
   {
     id: 2,
