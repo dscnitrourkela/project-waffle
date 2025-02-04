@@ -20,7 +20,7 @@ export const GalleryHeading = styled(H1)`
 `;
 
 export const GalleryContainer = styled.div`
-  ${tw`w-screen overflow-hidden py-10 space-y-[7rem]`}
+  ${tw`w-screen overflow-hidden py-10 space-y-[5rem] md:space-y-[7rem]`}
 `;
 
 export const RowContainer = styled.div`
@@ -28,5 +28,5 @@ export const RowContainer = styled.div`
 `;
 
 export const GalleryImage = styled(Image)`
-  ${tw`bg-[#F6DFC2] p-2 shadow-[6px_6px_0px_0px_#DC4475] object-cover rounded-lg hover:scale-105 transition-transform duration-300 mx-20`}
+  ${tw`bg-[#F6DFC2] p-2 shadow-[6px_6px_0px_0px_#DC4475] object-cover rounded-lg hover:scale-105 transition-transform duration-300 mx-20 `}
 `;

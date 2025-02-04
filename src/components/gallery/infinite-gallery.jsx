@@ -43,7 +43,7 @@ const InfiniteGallery = () => {
                 key={`top-${image.id}`}
                 src={image.url}
                 alt={`Gallery image ${index + 1}`}
-                className='w-[400px] h-[225px]'
+                className='w-[200px] h-[112px] sm:w-[300px] sm:h-[169px] md:w-[400px] md:h-[225px]'
                 width={500}
                 height={500}
               />
@@ -65,7 +65,7 @@ const InfiniteGallery = () => {
                 key={`middle-${image.id}`}
                 src={image.url}
                 alt={`Gallery image ${index + 1}`}
-                className='h-[325px] w-[500px] '
+                className='w-[250px] h-[163px] sm:w-[375px] sm:h-[244px] md:w-[500px] md:h-[325px]'
                 width={500}
                 height={500}
               />
@@ -87,7 +87,7 @@ const InfiniteGallery = () => {
                 key={`bottom-${image.id}`}
                 src={image.url}
                 alt={`Gallery image ${index + 1}`}
-                className='w-[400px] h-[225px] '
+                className='w-[200px] h-[112px] sm:w-[300px] sm:h-[169px] md:w-[400px] md:h-[225px]'
                 width={500}
                 height={500}
               />
