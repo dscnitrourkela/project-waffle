@@ -35,3 +35,7 @@ body {
     text-wrap: balance;
   }
 }
+
+.slick-dots .slick-active > div {
+  background-color: #c43462;
+}

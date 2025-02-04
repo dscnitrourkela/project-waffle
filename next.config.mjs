@@ -6,7 +6,7 @@ import withTwin from './withTwin.mjs';
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['res.cloudinary.com'],
+    domains: ['res.cloudinary.com', 'i.pravatar.cc'],
   },
   transpilePackages: ['geist'],
 };

@@ -9,6 +9,7 @@ import Prizes from '@/components/prizes/prizes';
 import Questions from '@/components/questions/Questions';
 import { PastSponsors, Sponsors } from '@/components/sponsors/sponsors';
 import { StatsMain } from '@/components/stats/stats-main';
+import Testimonials from '@/components/testimonials/Testimonials';
 import Timeline from '@/components/timeline/timeline';
 
 // import Link from 'next/link';
@@ -27,6 +28,7 @@ export default function Home() {
       <CommunityPartnerSection />
       <CampusAmbasador />
       <Questions />
+      <Testimonials />
     </div>
   );
 }

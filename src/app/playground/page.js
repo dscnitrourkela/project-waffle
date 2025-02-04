@@ -1,4 +1,5 @@
 'use client';
+import Testimonials from '@/components/testimonials/Testimonials';
 import React from 'react';
 const Playground = () => {
   return (
@@ -14,7 +15,8 @@ const Playground = () => {
       <CommunityPartnerSection />
       <CampusAmbasador />
       <Questions /> */}
-      hello from playmground
+      <Testimonials />
+      {/* hello from playmground */}
     </div>
   );
 };
