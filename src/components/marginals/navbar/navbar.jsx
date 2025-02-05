@@ -23,6 +23,19 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const handleNavClick = (e, href) => {
+    e.preventDefault();
+    const element = document.querySelector(href);
+    const navbarHeight = 100;
+    const elementPosition = element.getBoundingClientRect().top;
+    const offsetPosition = elementPosition + window.pageYOffset - navbarHeight;
+
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: 'smooth',
+    });
+  };
+
   return (
     <NavbarContainer className={isOpen && '!rounded-none !pb-0'}>
       <NavbarWrapper>
@@ -37,7 +50,11 @@ const Navbar = () => {
         <DesktopNavbar>
           <DesktopNavbarLinks>
             {NAVBAR_LINKS.map((link) => (
-              <NavbarLink key={link.text} href={link.href}>
+              <NavbarLink
+                key={link.text}
+                href={link.href}
+                onClick={(e) => handleNavClick(e, link.href)}
+              >
                 {link.text}
               </NavbarLink>
             ))}
@@ -49,7 +66,12 @@ const Navbar = () => {
         </ToggleButton>
       </NavbarWrapper>
 
-      <MobileNav isOpen={isOpen} navLinks={NAVBAR_LINKS} handleClose={() => setIsOpen(false)} />
+      <MobileNav
+        isOpen={isOpen}
+        navLinks={NAVBAR_LINKS}
+        handleClose={() => setIsOpen(false)}
+        handleNavClick={handleNavClick}
+      />
     </NavbarContainer>
   );
 };

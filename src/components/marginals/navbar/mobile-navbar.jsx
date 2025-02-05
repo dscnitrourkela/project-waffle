@@ -4,7 +4,14 @@ import { AnimatePresence } from 'framer-motion';
 
 import { MobileNavbar, MobileNavbarWrapper, NavbarLink } from './styles';
 
-function MobileNav({ isOpen, navLinks, handleClose }) {
+function MobileNav({ isOpen, navLinks, handleClose, handleNavClick }) {
+  const handleCLick = (e, href) => {
+    handleClose();
+    setTimeout(() => {
+      handleNavClick(e, href);
+    }, 300);
+  };
+
   return (
     <AnimatePresence>
       {isOpen && (
@@ -16,7 +23,13 @@ function MobileNav({ isOpen, navLinks, handleClose }) {
         >
           <MobileNavbarWrapper>
             {navLinks.map((link) => (
-              <NavbarLink key={link.text} href={link.href} onClick={handleClose}>
+              <NavbarLink
+                key={link.text}
+                href={link.href}
+                onClick={(e) => {
+                  handleCLick(e, link.href);
+                }}
+              >
                 {link.text}
               </NavbarLink>
             ))}
