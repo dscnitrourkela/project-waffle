@@ -20,7 +20,7 @@ export const GalleryHeading = styled(H1)`
 `;
 
 export const GalleryContainer = styled.div`
-  ${tw`w-screen overflow-hidden py-10 space-y-[5rem] md:space-y-[7rem]`}
+  ${tw`w-[98.5vw] overflow-hidden py-10 space-y-[5rem] md:space-y-[7rem]`}
 `;
 
 export const RowContainer = styled.div`
