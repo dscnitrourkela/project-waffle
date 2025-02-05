@@ -16,6 +16,7 @@ export const NAVBAR_LINKS = [
   { href: '#Home', text: 'Home' },
   { href: '#About', text: 'About' },
   { href: '#Stats', text: 'Stats' },
+  { href: '#Gallery', text: 'Gallery' },
   { href: '#Timeline', text: 'Timeline' },
   { href: '#Sponsors', text: 'Sponsors' },
   { href: '#FAQs', text: 'FAQs' },

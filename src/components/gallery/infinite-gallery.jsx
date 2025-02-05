@@ -23,7 +23,7 @@ const InfiniteGallery = () => {
   return (
     <>
       <div className='flex justify-center !mt-32 mb-20'>
-        <GalleryHeadingContainer>
+        <GalleryHeadingContainer id='Gallery'>
           <GalleryHeading>Gallery</GalleryHeading>
         </GalleryHeadingContainer>
       </div>

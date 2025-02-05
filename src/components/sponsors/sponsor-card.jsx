@@ -13,7 +13,7 @@ const Card = ({ sponsors, CardContainer }) => {
   return (
     <div className='flex flex-col md:flex-row gap-10 justify-center items-center'>
       {sponsors.map((sponsor) => (
-        <CardContainer key={sponsor.name}>
+        <CardContainer key={sponsor.SponsorsCategory + sponsor.name}>
           <InnerCardContainer>
             <SponsorImage src={sponsor.imageURL} alt={sponsor.name} />
             <SponsorCategory>{sponsor.SponsorsCategory}</SponsorCategory>
@@ -40,7 +40,7 @@ export const DeltaCard = ({ sponsors }) => {
         <Marquee gradient={false} speed={50} pauseOnHover={false} className='w-full gap-x-8'>
           <div className='flex gap-8'>
             {sponsors.map((sponsor) => (
-              <DeltaCardContainer key={sponsor.name}>
+              <DeltaCardContainer key={sponsor.SponsorsCategory + sponsor.name}>
                 <InnerCardContainer>
                   <SponsorImage src={sponsor.imageURL} alt={sponsor.name} />
                   <SponsorCategory>{sponsor.SponsorsCategory}</SponsorCategory>
@@ -54,7 +54,7 @@ export const DeltaCard = ({ sponsors }) => {
       {/* Desktop view without marquee */}
       <div className='hidden md:flex flex-row gap-10 justify-center items-center flex-wrap'>
         {sponsors.map((sponsor) => (
-          <DeltaCardContainer key={sponsor.name}>
+          <DeltaCardContainer key={sponsor.SponsorsCategory + sponsor.name}>
             <InnerCardContainer>
               <SponsorImage src={sponsor.imageURL} alt={sponsor.name} />
               <SponsorCategory>{sponsor.SponsorsCategory}</SponsorCategory>
