@@ -1,8 +1,5 @@
-/* eslint-disable @next/next/no-img-element */
 import React, { useEffect, useRef, useState } from 'react';
-
 import { ELLIPSE_IMG, LINE_IMG, TIMELINE } from '@/config/content/timeline';
-
 import {
   Box,
   BoxHeading,
@@ -27,25 +24,35 @@ const Ellipse = () => (
 export default function Timeline() {
   const [scrollHeight, setScrollHeight] = useState(0);
   const targetRef = useRef(null);
+  const scrollThrottleRef = useRef(false);
 
   const handleScroll = () => {
-    if (targetRef.current) {
-      const { top, bottom } = targetRef.current.getBoundingClientRect();
-      if (bottom > 0 && top < window.innerHeight) {
-        let scrolled;
+    if (scrollThrottleRef.current) return;
 
-        if (top >= 0) {
-          scrolled = Math.min(100, Math.max(0, (1 - top / (bottom - top)) * 100 - 30));
-        } else {
-          scrolled = Math.min(
-            100,
-            Math.max(0, (1 - (bottom - window.innerHeight) / (bottom - top)) * 100 - 18),
-          );
+    scrollThrottleRef.current = true;
+
+    // Use requestAnimationFrame for smooth updates
+    requestAnimationFrame(() => {
+      if (targetRef.current) {
+        const { top, bottom } = targetRef.current.getBoundingClientRect();
+        if (bottom > 0 && top < window.innerHeight) {
+          let scrolled;
+          if (top >= 0) {
+            scrolled = Math.min(100, Math.max(0, (1 - top / (bottom - top)) * 100 - 30));
+          } else {
+            scrolled = Math.min(
+              100,
+              Math.max(0, (1 - (bottom - window.innerHeight) / (bottom - top)) * 100 - 18),
+            );
+          }
+          setScrollHeight(scrolled);
         }
-
-        setScrollHeight(scrolled);
       }
-    }
+
+      setTimeout(() => {
+        scrollThrottleRef.current = false;
+      }, 16);
+    });
   };
 
   useEffect(() => {
@@ -55,7 +62,7 @@ export default function Timeline() {
       observer.observe(targetRef.current);
     }
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll, { passive: true });
 
     return () => {
       observer.disconnect();
@@ -63,22 +70,27 @@ export default function Timeline() {
     };
   }, []);
 
+  const progressStyle = {
+    height: `${scrollHeight}%`,
+    transition: 'height 0.3s ease-out',
+  };
+
   return (
     <Container id='Timeline'>
-      <div className='flex w-full justify-center '>
+      <div className='flex w-full justify-center'>
         <TimelineHeadingContainer>
           <TimeLineHeading>Timeline</TimeLineHeading>
         </TimelineHeadingContainer>
       </div>
       <div className='flex m-auto px-0 md:px-10 !my-10' ref={targetRef}>
         <ProgressBar>
-          <Progress height={scrollHeight}>
+          <Progress style={progressStyle}>
             <Ellipse />
           </Progress>
         </ProgressBar>
         <div className='flex flex-col md:gap-[36px]'>
           {TIMELINE.nodes.map((node, index) => (
-            <div key={node.serialid} className='flex  items-center md:flex-row flex-col'>
+            <div key={node.serialid} className='flex items-center md:flex-row flex-col'>
               <Branch />
               <Box color={node.color}>
                 <BoxHeading color={node.color}>{node.title}</BoxHeading>

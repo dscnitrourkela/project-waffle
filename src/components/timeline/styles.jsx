@@ -16,9 +16,10 @@ export const ProgressBar = styled.div`
 `;
 
 export const Progress = styled(ProgressBar)`
-  position: relative;
   background: linear-gradient(91deg, #e84b7d 0.34%, #b02753 99.81%);
-  height: ${(props) => `${props.height}%`};
+  position: relative;
+  width: 100%;
+  transition: height 0.3s ease-out;
 `;
 
 export const Branch = styled.div`
