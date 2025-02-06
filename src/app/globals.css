@@ -36,6 +36,6 @@ body {
   }
 }
 
-.slick-dots .slick-active > div {
-  background-color: #c43462;
+.link {
+  @apply text-blue-500;
 }

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -38,37 +38,29 @@ const CustomNextArrow = (props) => (
   </button>
 );
 
-function formatTimestamp(timestamp) {
-  const date = new Date(timestamp);
-
-  const timeOptions = {
-    hour: 'numeric',
-    minute: 'numeric',
-    hour12: true,
-  };
-
-  const dateOptions = {
-    month: 'short',
-    day: 'numeric',
-    year: 'numeric',
-  };
-
-  const formattedTime = date.toLocaleString('en-US', timeOptions);
-  const formattedDate = date.toLocaleString('en-US', dateOptions);
-
-  return `${formattedTime} · ${formattedDate}`;
-}
-
 const TestimonialCarousel = () => {
+  const [activeSlide, setActiveSlide] = useState(0);
+
+  const formatTweet = (tweet) => {
+    return tweet
+      .replace(/@(\w+)/g, '<a class="link" href="https://x.com/$1">@$1</a>') // Replace @mentions
+      .replace(
+        /#(\w+)/g,
+        '<a class="link" href="https://x.com/hashtag/$1?src=hashtag_click">#$1</a>',
+      );
+  };
+
   const settings = {
     dots: true,
     appendDots: (dots) => (
-      <div>
+      <div className='custom-dots'>
         <ul className='slick-dots !flex justify-center mt-5'>{dots}</ul>
       </div>
     ),
     customPaging: (i) => (
-      <div className='w-3 h-3 rounded-full bg-[#f6dfc2] hover:bg-[#ecbe84] transition-all duration-300'></div>
+      <div
+        className={`h-2 w-2 rounded-full ${i === activeSlide ? 'bg-red-400' : 'bg-white'}`}
+      ></div>
     ),
     infinite: true,
     speed: 500,
@@ -76,6 +68,7 @@ const TestimonialCarousel = () => {
     slidesToScroll: 1,
     nextArrow: <CustomNextArrow />,
     prevArrow: <CustomPrevArrow />,
+    beforeChange: (current, next) => setActiveSlide(next),
   };
 
   return (
@@ -120,9 +113,9 @@ const TestimonialCarousel = () => {
                     </Username>
                   </div>
                 </Head>
-                <Tweet>{testimonial.tweet}</Tweet>
+                <Tweet dangerouslySetInnerHTML={{ __html: formatTweet(testimonial.tweet) }}></Tweet>
                 <CardFooter>
-                  {formatTimestamp(testimonial.timestamp)}
+                  {testimonial.time}
                   <a href='https://twitter.com' target='_blank' className='text-blue-500 mx-3'>
                     Twitter Web App
                   </a>
